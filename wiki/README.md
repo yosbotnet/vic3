@@ -43,6 +43,7 @@ After the path, mix and match by need.
 - [Cultural Fervor](laws-and-politics/cultural-fervor.md)
 - [Slavery Abolition](laws-and-politics/slavery-abolition.md) — applied case-study
 - [Political Movements](laws-and-politics/political-movements.md)
+- [Technology & Research](laws-and-politics/technology.md) — opening tech pivot, build order, journal/event picks
 
 ### Diplomacy
 - [Power Blocs](diplomacy/power-blocs.md)
