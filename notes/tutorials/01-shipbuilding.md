@@ -4,61 +4,60 @@ source_video: https://www.youtube.com/watch?v=ct-PUjt6M8c
 generated_at: 2026-05-16
 ---
 
-# Shipbuilding in Victoria 3 (1.13 Great Wave)
+# Shipbuilding (1.13 Great Wave)
 
 **Source:** [Shipbuilding Tutorial in Victoria 3](https://www.youtube.com/watch?v=ct-PUjt6M8c) (25:54 runtime)
 
 ## Summary
-Covers the 1.13 Great Wave shipbuilding overhaul: the unified Shipyards building, the ship construction point economy, allocation between supply and military queues, the Ship Designer (Great Wave DLC), retrofitting existing fleets, and the new Navy Model law category. Useful from game start onward — especially when laying out an initial construction queue, expanding a navy, picking a navy model law, or planning fleet upgrades mid-campaign.
+The 1.13 Great Wave update consolidates all naval construction into regular Shipyards (no more separate military shipyards), which now output ship construction points used by a shared queue for military ships and supply ships. The Ship Designer (Great Wave DLC) lets you create templates per ship type and retrofit existing fleets to those templates. A new Navy Model law group shapes which ships you specialise in. This system matters from day one because navy upkeep silently consumes a slice of your construction throughput and competes with army/civilian construction for wood, hardwood, and fabric.
 
 ## Core mechanics
-1. **Unified Shipyards** — Military shipyards are gone; all ships are built from regular Shipyards, which now output Ship Construction Points alongside Clippers. Keeping Clippers profitable lets the building stay employed without subsidies; if it loses employment it produces fewer construction points.
-2. **Ship construction points & maintenance** — Each existing ship draws a small ongoing maintenance cost from your total construction points before any new building happens. As your navy grows, maintenance eats more of your shipyard output, so you must expand Shipyards in step with the fleet.
-3. **Construction allocation slider** — A slider in the ship construction panel splits available points between the supply ship queue and the military queue in 25% steps. Even when set fully to military, any unused military-side points spill over to supply ship construction.
-4. **Ship Designer (Great Wave DLC)** — Lets you make templates per ship type by tuning Armor, Armament, Propulsion, Supply Capacity, Carrying Capacity / Marine Capacity, plus wildcard mods. Each upgrade raises construction cost and changes input goods consumed by Shipyards.
-5. **Supply ships & organization** — Fleets away from home port deplete their orange supply bar; supply ships out in the world refill it. When the bar empties, the fleet loses organization and therefore offense/defense.
-6. **Retrofitting** — You can change the template of existing ships via Edit → Select All → Change Template → Retrofit. Affected fleets return to port, then the queue adds "retrofit" entries that cost only the difference between old and new template construction costs.
-7. **Capital vs Cruiser roles** — Capital ships have heavy armor and damage but high vulnerability and poor targeting vs torpedo boats, torpedo boat cruisers, submarines, and destroyers. Cruisers have higher screening (soaking attacks for capitals) and lower visibility (better for escorting trade and battalions through hostile sea nodes).
-8. **Navy Model law group** — A new law category (Merchant Navy, Jeune École, Capital Fleet, Diplomatic Fleet) that grants construction efficiency bonuses to specific ship classes and shapes the navy's strategic role.
-9. **Ship construction efficiency** — A percentage modifier from laws (and other sources) that effectively gives free construction points: the displayed per-week points get multiplied up before being applied to a ship's total cost.
-10. **Naval administrations** — Ships are not crewed by being built; you must also build Naval Administrations to hire sailors. Capital Fleet speeds this up by 25%, Diplomatic Fleet by 10%, which matters both at peace and for replacing combat losses.
 
-## Numbers & formulas
-- Base Shipyards (first PM) produce 5 ship construction points per level [01:01].
-- Example: 2 levels with +12% throughput → 11 points [01:30].
-- Allocation slider moves in 25% increments [03:00].
-- Example: 11 points total, 3 used for navy maintenance, leaves 8 for new construction [03:00].
-- Example late game: 40 points generated, 7 to maintenance, 50/50 split of the remaining 33 → 16.35 to each side (actual maintenance ≈ 7.3) [04:00] [04:32] [05:02].
-- Supply ship maintenance: 1.1 maintenance points per 133.4 supply ships (e.g., 414 ships → ~3.1) [05:02].
-- Military ship maintenance: 1 point per 3,333.3 construction points worth of ships [05:33] [06:01].
-- Ship of the line cost: 405 construction points → 0.12 maintenance each (405 / 3,333.3) [06:01] [06:30].
-- Mod 1837 ship cost: 773 construction points [07:01].
-- "Transport ship" cost: 574 construction points [07:01].
-- Base cruiser template cost: 162 construction points [07:31].
-- Example fleet totals: 10 ship of the line + 1 mod 1837 + 16 transport ships = 9,184; +10 base cruisers = 15,627 → 15,627 / 3,333.3 = 4.69 military maintenance [07:01] [07:31].
-- Designer example: frigate fully upgraded with wildcard ≈ 403 construction points → 0.12 maintenance each [12:01].
-- Capital Fleet bonus: +25% capital ship construction efficiency [16:00].
-- Example: 8.18 generated × 1.25 = 10.225 (UI shows 10.22) applied toward the 405-point ship of the line [16:31] [17:02].
-- Merchant Navy: −10% all ship construction efficiency, +30% supply ships → net +20% on supply ships [17:32] [18:01].
-- Merchant Navy: +30% troop ship construction efficiency → net +20% after the −10% [18:01] [18:30].
-- Merchant Navy: −10% ship involvement generation [18:30].
-- Example involvement pool: Armada Nationale 310 involvement points [19:00].
-- Jeune École: +25% torpedo craft, +20% cruiser construction efficiency, −10% navy goods cost, +10% officer political strength [20:01] [22:00].
-- Capital Fleet: +25% capital ship construction efficiency, +20% navy prestige, +20% officer political strength, +25% naval administration hiring speed [22:31] [23:00].
-- Diplomatic Fleet: +25% cruiser construction efficiency (all cruisers), +20% ship involvement generation, +10% naval administration hiring speed [23:31] [24:01].
+1. **Shipyards produce ship construction points** — Shipyards now output both Clippers (a tradeable good) and ship construction points; base PM yields 5 points per level [01:01]. If Clipper prices crash and the shipyard loses employment, point output drops. Subsidise the building to keep it fully employed and preserve all points, but if you can keep Clippers profitable you avoid paying wages out of Treasury — unlike Construction Sector wages, which the government always pays [01:30].
+2. **Navy maintenance skims construction points off the top** — A portion of weekly ship construction points is consumed maintaining the existing navy before any goes to building [03:00]. Rule: every 133.33 supply ships costs 1 maintenance point [05:02]; every 3,333.33 military construction points worth of built ships costs 1 maintenance point [05:33]. If you expand the fleet without expanding shipyards, maintenance eventually swallows everything and new builds stall [07:31] — expand shipyards in step with the navy.
+3. **Allocation slider splits remaining points between military and supply queues** — After maintenance, the slider distributes leftover points; it moves in 25% increments [02:30]. Critically, if the favoured queue has fewer projects than its share, the unused points spill to the other side automatically [02:30] — so setting it fully to military still funds supply when the military queue is empty.
+4. **Ship Designer templates (Great Wave DLC)** — For each ship type you create named templates that pick a level (1–3) for Armor, Armament, Propulsion, Supply Capacity, Carrying/Marine Capacity, plus a wild-card slot [09:32]. The running tally on the right shows construction-point cost, weekly upkeep, and the input goods that will be added to your shipyard demand — watch this before committing, because new templates change what your shipyards consume [12:31]. Without the DLC you only get the base template per ship type.
+5. **Each design lever has a combat job** — Armor reduces HP loss; Armament raises hull and crew attack (ship sinks at 0 HP, also retreats at low HP; depleting crew also wins the battle) [10:00]. Propulsion sets sea-node movement speed — a fleet moves at the speed of its slowest ship, so don't mix slow ships into fast fleets [10:31]. Supply Capacity is the orange bar consumed when away from home port; once empty, organisation drops and offence/defence fall [10:31]. Carrying/Marine Capacity sets how many battalions/marines per ship — at level 2 a frigate carries only 0.25 battalions (4 frigates per battalion), at level 3 it carries 0.5 [11:30].
+6. **Retrofitting upgrades existing ships to a new template** — Open the ship list, edit, multi-select (or Select All), Change Template, pick the target, then Retrofit [14:30]. Affected fleets sail home (must be docked) and the queue subtracts the cost of work already done from the new template's cost, so small tweaks retrofit fast and full redesigns retrofit slow [15:30]. Fleets split automatically so other ships can continue current missions.
+7. **Capital vs Cruiser roles in combat** — Capitals (e.g. Ship of the Line) hit hardest and tank with armour but have high Vulnerability, so enemies target them first; Cruisers have higher Screening, soaking attacks to keep capitals firing longer [21:01]. Cruisers also have lower Visibility, letting them slip through hostile sea nodes without triggering battle — making them the right escorts for trade and troop transport [21:30]. Capitals are bad at hitting torpedo boats, torpedo-boat cruisers, submarines, and destroyers, so a capital-only fleet is exposed to torpedo specialists [20:32].
+8. **Construction Efficiency = free construction points** — A +25% efficiency modifier means every point spent on that ship counts as 1.25 toward its build cost [16:31]. Read Navy Model laws as efficiency dials: percentages stack additively, so a law granting -10% to all ships and +30% to supply ships nets +20% on supply and -10% on military [17:32].
+9. **Navy Model law group** — Pick the law that matches your strategic plan [15:30]:
+   - **Merchant Navy**: -10% all ships, +30% supply, +30% troop ships (so +20% net to supply/troop), -10% involvement generation. Use when you don't intend serious naval combat — focus is trade protection and troop transport.
+   - **Jeune École**: +25% torpedo craft, +20% specific cruisers, -10% navy goods cost, +10% officer political strength. Use to swarm a larger enemy with cheap specialised hulls.
+   - **Capital Fleet**: +25% capital ship efficiency, +20% prestige from navy, +20% officer political strength, +25% naval administration hiring speed. Use to build an intimidating big-gun navy.
+   - **Diplomatic Fleet**: +25% to all cruisers, +20% involvement generation, +10% naval administration hiring speed. Use to project power into many strategic regions cheaply (also boosts regional trade advantage).
+10. **Naval administrations employ the ships** — Building a hull does not man it; you must build naval administrations alongside [23:00]. Hiring speed matters in war because dead sailors must be replaced before a ship returns to combat. Capital Fleet and Diplomatic Fleet laws speed this up.
+
+## Game numbers & rules of thumb
+- Shipyard base PM produces 5 ship construction points per level [01:01].
+- Supply-ship maintenance: 1 maintenance point per 133.33 supply ships [05:02].
+- Military-ship maintenance: 1 maintenance point per 3,333.33 construction points of built military ships [05:33]; e.g. a 405-point Ship of the Line costs 0.12 maintenance each [06:01].
+- Allocation slider moves in 25% steps; unused points spill to the other queue [02:30].
+- A frigate at supply/carrying level 2 carries 0.25 battalions and 0.12 marines; at level 3, 0.5 battalions and 0.25 marines [11:30].
+- A fleet moves at the speed of its slowest ship [10:31].
+- Construction Efficiency adds to construction points multiplicatively: +X% efficiency = each invested point counts as 1+X/100 toward the build [16:31].
+- Navy Model law modifiers stack additively with the global ship modifier; e.g. -10% all + 30% supply = +20% net to supply [17:32].
+- Capitals have high Vulnerability (targeted first); Cruisers have high Screening and low Visibility [21:01].
+- Navy demand at game start is heavy in wood, hardwood, and fabric — competes directly with Construction Sector demand [24:32].
 
 ## Common pitfalls
-- Letting shipyards lose employment (unprofitable Clippers) silently reduces your construction points — subsidize if needed.
-- Forgetting that navy maintenance is paid out of your construction points before anything new is built; an oversized navy with too few shipyards grinds new builds to a halt [08:01].
-- Building ships without building Naval Administrations — the hulls exist but are not crewed [23:00].
-- Assuming the slider being "all military" sends 100% to military: it only redirects unused supply allocation; military queue still draws spillover [02:30].
-- Designing maxed-out templates without watching the input-goods breakdown — those goods become new Shipyard inputs and can spike prices [12:31].
-- 1.13 dramatically increases early demand for wood, hardwood, and fabric; ignoring this when also needing artillery (e.g., starting as Sweden with no foundry) makes the opening construction queue painful [24:32] [25:01].
+- Expanding the navy without expanding Shipyards — maintenance eventually eats your entire construction throughput and builds crawl [07:31].
+- Letting Clipper prices collapse and not subsidising — the shipyard loses employment and ship construction points drop silently [01:30].
+- Forgetting to build Naval Administrations alongside new hulls — the ships exist but aren't manned [23:00].
+- Designing a new template without checking its input-goods tooltip — your shipyards' demand profile changes the moment you queue it [12:31].
+- Mixing a slow ship into a fast fleet — the whole fleet drops to the slowest ship's speed [10:31].
+- All-capital fleets versus torpedo specialists — capitals struggle to hit torpedo boats, submarines, and destroyers; bring cruiser screens [20:32].
+- Letting fleets operate far from home with too few supply ships — supply bar empties, organisation falls, offence/defence collapse [10:31].
 
 ## Cheatsheet
-1. At game start, build/expand Shipyards before expanding the navy and check Clipper price so Shipyards stay employed.
-2. Set the allocation slider based on need: full-left if you mainly want supply spillover from the military queue, step right toward supply when fleets are losing org abroad.
-3. Pick a Navy Model law to match your plan — Merchant Navy for trade/transport, Jeune École for cheap cruisers/torpedo craft, Capital Fleet for big battle fleets, Diplomatic Fleet for cruiser spam + strategic interests.
-4. With Great Wave, open the Ship Designer, create templates per type, and watch the construction-point total (it drives maintenance at 1 per 3,333.3 points).
-5. To upgrade a fleet: capital ship list → Edit → Select All → Change Template → pick new template → Retrofit; fleets auto-return to port and only the cost difference is built.
-6. As the navy grows, queue more Shipyards and Naval Administrations together so points and crews scale with hulls.
+1. Expand Shipyards in lockstep with the navy; check that maintenance is well under half your total construction points before queuing more hulls.
+2. Set allocation toward whichever queue you actually need — overflow handles the other side automatically.
+3. Pick the Navy Model law that matches your plan: Merchant Navy (trade), Jeune École (asymmetric small), Capital Fleet (big-gun), Diplomatic Fleet (presence + cruisers).
+4. Open the Ship Designer, build templates per type, and check the input-goods tooltip before saving — that's your future Shipyard demand.
+5. To upgrade a fleet: ship list → edit → Select All → Change Template → Retrofit; ships sail home, queue computes the delta.
+6. Build Naval Administrations as you build hulls, especially during wartime so casualties refill.
+
+## See also
+- [Naval_warfare](https://vic3.paradoxwikis.com/Naval_warfare) — fleets, sea nodes, supply, screening, vulnerability
+- [Laws](https://vic3.paradoxwikis.com/Laws) — Navy Model law group
+- [Production_methods](https://vic3.paradoxwikis.com/Production_methods) — Shipyard PMs and ship construction point output
