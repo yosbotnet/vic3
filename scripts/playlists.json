@@ -8,5 +8,10 @@
     "slug": "great-wave-japan",
     "url": "https://www.youtube.com/playlist?list=PLsT4scrqjQbTSBvfQQBpMnGQzcwkteRvp",
     "naming": "episode"
+  },
+  {
+    "slug": "beginner-tutorial",
+    "url": "https://www.youtube.com/playlist?list=PLsT4scrqjQbTL1oN70phckK1W-G-J12RD",
+    "naming": "episode"
   }
 ]
