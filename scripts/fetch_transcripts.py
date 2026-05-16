@@ -103,3 +103,14 @@ def format_transcript_markdown(
 
     body = "\n\n".join(chunks) + "\n"
     return frontmatter + body
+
+
+def output_filename(meta: VideoMeta, *, naming: str) -> str:
+    """Stable per-video filename driven by playlist naming policy."""
+    index = f"{meta.playlist_index:02d}"
+    if naming == "episode":
+        return f"ep{index}.md"
+    if naming == "slug":
+        slug = slugify_title(meta.title) or f"video-{meta.video_id}"
+        return f"{index}-{slug}.md"
+    raise ValueError(f"unknown naming policy: {naming!r}")

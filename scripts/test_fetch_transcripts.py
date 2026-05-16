@@ -97,3 +97,40 @@ def test_format_quotes_title_with_special_chars():
     front = out.split("---\n", 2)[1]
     parsed = yaml.safe_load(front)
     assert parsed["title"] == 'Victoria 3\'s "Best" Tutorial'
+
+
+from fetch_transcripts import output_filename
+
+
+def test_output_filename_slug_naming():
+    meta = VideoMeta(
+        title="Shipbuilding Tutorial in Victoria 3",
+        video_id="x", url="u", duration_seconds=0,
+        playlist="tutorials", playlist_index=1,
+    )
+    assert output_filename(meta, naming="slug") == "01-shipbuilding.md"
+
+
+def test_output_filename_pads_to_two_digits():
+    meta = VideoMeta(
+        title="Foo", video_id="x", url="u", duration_seconds=0,
+        playlist="tutorials", playlist_index=7,
+    )
+    assert output_filename(meta, naming="slug") == "07-foo.md"
+
+
+def test_output_filename_episode_naming():
+    meta = VideoMeta(
+        title="Victoria 3: Japan Becomes a Superpower! | The Great Wave - ep1",
+        video_id="x", url="u", duration_seconds=0,
+        playlist="great-wave-japan", playlist_index=1,
+    )
+    assert output_filename(meta, naming="episode") == "ep01.md"
+
+
+def test_output_filename_episode_naming_two_digit():
+    meta = VideoMeta(
+        title="...ep17", video_id="x", url="u", duration_seconds=0,
+        playlist="great-wave-japan", playlist_index=17,
+    )
+    assert output_filename(meta, naming="episode") == "ep17.md"
