@@ -47,6 +47,8 @@ The Army is Victoria 3's land force, but mechanically it is a supply-chain probl
 
 17. **Naval Invasions can be lost** — The enemy Navy can intercept (losing at sea ends the invasion); on land, losing three battles ends it. *Decision rule:* only invade with naval superiority or against a country with no Navy in range, and have a reinforcement plan if the landing holds.
 
+18. **Strategic Objective (right-click)** — right-click a state and select Strategic Objective to make your fronts prioritise pushing toward that state. The one player-side pathing control on top of Advance/Defend orders, useful for racing to an enemy capital. `[from beginner-tutorial ep17]`
+
 ## Game numbers & rules of thumb
 Generalisable values from `[from 19-military-army]`:
 
@@ -73,6 +75,8 @@ Generalisable values from `[from 19-military-army]`:
 **Audit mobilization before the war, not during it.** The ~60% cost spike from supplies, supplements, transportation, and medical only appears on mobilization, which is exactly when your Market is least forgiving. Pre-pick the cheapest supplement available (Tobacco / Liquor / Opium at 0.5/Battalion, never Chocolate at 1.0 Sugar if you have a choice), enable First Aid as soon as researched for the Recovery Rate, and walk through every mobilization good against your stockpile and trade routes. Over-mobilizing conscripts pulls pops out of buildings — your war economy can collapse from your own draft.
 
 **Win fronts by making more of them.** Direct tactical control is thin; the real operational tool is front manufacture. Against a larger opponent, the question is not "can I win the main front" but "where can I land an Army to force the enemy to split." Pick a weakly defended Incorporated State, ensure naval superiority along the route, size the Landing Army to your Flotillas, and once ashore use Strategic Objectives in the military lens to push toward a link-up with your main front rather than wandering province-by-province.
+
+**Mobilization options stack with Armed Forces fervor**: Extra Supplies (+25% goods for +10% offense and defense) plus fervor can push wartime goods consumption ~50% above peacetime. Sizing rule: build arms factories to roughly 2/3 of mobilized demand, not 1/1 of peacetime. `[from beginner-tutorial ep13, ep17]`
 
 ## Common pitfalls
 - Upgrading Battalions you cannot supply — disband-and-rebuild is the only reversal.

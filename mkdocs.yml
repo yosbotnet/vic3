@@ -75,6 +75,8 @@ nav:
   - Diplomacy:
       - Power Blocs: diplomacy/power-blocs.md
       - Small-Nation Play: diplomacy/small-nation-play.md
+      - Colonization: diplomacy/colonization.md
+      - Nation Formation: diplomacy/nation-formation.md
   - Military:
       - Army (2025): military/army.md
       - Navy (2025): military/navy.md

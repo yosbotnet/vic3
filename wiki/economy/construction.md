@@ -31,6 +31,7 @@ The strategic question is never "should I build more Sectors?" (the answer is ye
 14. **Import subventions as bridges** — A subvention forces the Trade Center to import a specific Good even if unprofitable. DECISION RULE: subvent any critical input (tools, iron, paper) while its domestic Building is under construction; drop the subvention the week the Building completes.
 15. **Consumption taxes by consumer class** — Pop spending breaks down by strata, and SoL hits scale with the share each strata buys. DECISION RULE: tax Services, Transportation, Luxury Clothes, Luxury Furniture (upper-strata heavy); avoid taxing Clothes and Grain (universal — drops SoL across all classes).
 16. **High Taxes is emergency-only** — The High Taxes law extracts more revenue but drains pop spending money, which shrinks the very economy you are taxing. DECISION RULE: use only briefly while waiting for a privatization sale to land; drop to Medium the moment reserves recover.
+17. **Infrastructure cap** — Each state has an infrastructure budget (base + population + ports + railways). Buildings consume infrastructure; going over costs Market Access. Capital states get +25% infrastructure. DECISION RULE: when a state's market access is dropping, check infrastructure before assuming a trade issue. `[from beginner-tutorial ep01]`
 
 ## Game numbers & rules of thumb
 
@@ -49,6 +50,8 @@ All from `[from 11-construction]`:
 - Healthy weekly deficit while building: around −400. Surplus >1k means add a Sector.
 - Reserve floor is hard — sell a Building before you hit zero.
 - ~30 Construction points is the threshold to pivot toward "main export" focus and trade-advantage treaties.
+- **Per-building construction cap:** 25 construction points per week is the maximum any single building under construction can absorb. Queue 2+ buildings in parallel to use surplus Construction Sector output. (verify on current patch) `[from beginner-tutorial ep02]`
+- **Cargo Port** +5 infrastructure, **Industrial Port** +7.5, **Railway** +20 per level. `[from beginner-tutorial ep01]`
 
 ## Strategy & playbook
 
@@ -61,6 +64,10 @@ All from `[from 11-construction]`:
 **Phase 4 — Compounding and crisis management.** Whenever surplus crosses 1k, add a Sector plus matching input levels. Whenever reserves trend toward zero, privatize one profitable urban Building (Tooling Workshop or Textile Mill), pocket the cash, and immediately toggle privatization OFF on the building type so the replacement does not auto-sell. This double-bonuses you: cash now, and money flows into Financial Districts which build the urban buildings that mostly otherwise will not get built (the gamestart Investment Pool is Manor-House-dominated, so Private builds default to farms). Add Road Maintenance to any building state with negative terrain efficiency. Only chase excess Bureaucracy if you can afford the Government Admin upkeep — efficient states are cheaper than overbuilt ones.
 
 **Phase 5 — Export pivot at ~30 points.** Around 30 Construction points you have outgrown the bootstrap. Shift to a "main export" focus, sign trade-advantage treaties, and let the loop spin on its own momentum while you start funding the things construction enables — armies, navies, the political reforms that lift the Private split from 25% to 50%.
+
+**Alt+click to queue-front:** Alt+click while queueing a building puts it at the front of the construction queue rather than the back. Useful for urgent Construction Sector adds or wartime arms factories. `[from beginner-tutorial ep16]`
+
+**Build-where-it-earns-most lens:** Set the map lens to a specific building type plus "earnings" to highlight which state would yield the highest income from that building right now. Reads local input prices. `[from beginner-tutorial ep16]`
 
 ## Common pitfalls
 

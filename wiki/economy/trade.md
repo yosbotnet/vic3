@@ -48,6 +48,8 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 
 16. **Imports cost capacity too** — Capacity used to import a missing good is capacity not earning export revenue [from 13-how-to-work-trade-centers-and-trade-routes]. **Decision rule:** domesticate inputs (e.g., research Intensive Agriculture, switch domestic PMs) so Trade Capacity stays free for high-margin exports [from 13-how-to-work-trade-centers-and-trade-routes].
 
+17. **Conquered/colony market access requires a port.** A non-contiguous conquered state has 0% market access until you build a port. An Anchorage is sufficient — you don't need a Cargo Port for market access. `[from beginner-tutorial ep07]`
+
 ## Game numbers & rules of thumb
 
 - Market Price is bounded by **±75%** of base price [from 12-treaty-port-and-market-price].
@@ -67,6 +69,7 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 - Colonization Rights charter: 100 Authority, requires an existing Declared Interest in a colonizable region [from 13-how-to-work-trade-centers-and-trade-routes].
 - Company Prosperity has a **100 ceiling / 75 floor** once you've ever hit 100 [from 13-how-to-work-trade-centers-and-trade-routes].
 - Peaceful Treaty Port subsidies cap around **£34.4k/week** in negotiation — if AI score is still deeply negative at the cap, escalate to war [from 12-treaty-port-and-market-price].
+- **Unincorporated states:** flat −10% Market Access Price Modifier baseline (caps price arbitrage from colonies). `[from beginner-tutorial ep07]`
 
 ## Strategy & playbook
 
@@ -79,6 +82,8 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 **Read Market Prices as Buy/Sell ratios, not absolute numbers.** Prices are bounded ±75% of base and are entirely driven by the ratio of Buy to Sell Orders [from 12-treaty-port-and-market-price]. If a good you produce is hitting the −75% floor, the cure is to suppress oversupply (cut production methods, export it, stop subsidising) — adding buyers barely moves it. If a critical input is sitting at +75%, the only real fix is more sellers (more producers, opened imports) — and again, more buyers will not lower the price because Sell Orders is the denominator [from 12-treaty-port-and-market-price]. This is also why Subventions on a forced import work: they don't change Market Price, they just let your Trade Center keep importing at a loss until you can rebalance supply [from 15-world-market-and-trade-center].
 
 **Use Treaty Ports as paid access to closed Markets.** A Treaty Port is the single best lever against isolationist or law-variant-locked nations (Canton System and similar) [from 12-treaty-port-and-market-price]. The state is yours but sits in their Market, so a Trade Center there trades their goods to their Market; route those goods home and you collect profit on the export leg (in their Market) and the import leg (in yours), with Trade Advantage scaled by the cedant Market's share of world exports for each good [from 12-treaty-port-and-market-price]. Trade Centers in the port are owned by your Financial Districts, so dividends and reinvestment flow to your pops and Investment Pool — treat it as a domestic investment site, not foreign aid [from 12-treaty-port-and-market-price]. Try Draft Treaty → Treaty Port article first with money offers; if AI acceptance is hopelessly negative even at max subsidy, escalate via Force Diplomatic Play with the "take a Treaty Port" demand and the "enforce Treaty Port" war goal [from 12-treaty-port-and-market-price].
+
+**Force-pricing exports to fix a stuck price-floor producer.** If a building (e.g., Livestock Ranch) is unprofitable because the good has hit the −75% floor, set an export route on that good. Draining Sell Orders lifts the price. The export route IS the lever for the "suppress oversupply" rule. `[from beginner-tutorial ep04]`
 
 ## Common pitfalls
 

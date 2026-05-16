@@ -28,6 +28,7 @@ Granting rights accelerates GDP growth on both sides (host pops own the building
 10. **Debt spiral chain** — Negative Investment Pool change → pool drains → private construction queue stops → government covers 100% of construction cost → budget collapses. Decision rule: treat a sustained-negative Investment Pool as a fire. If you cannot nationalize yet, lower construction cost by cheapening inputs (more domestic production of construction goods).
 11. **GDP and minting** — Goods produced inside a host country count toward the host's GDP and minting, even when owned by your Company. The host genuinely benefits; granted rights are a real diplomatic carrot, not pure sacrifice.
 12. **Prestige goods abroad** — A Company's foreign-built buildings can produce the Company's prestige good directly into the host's market, transferring goods access without trade routes.
+13. **Investment Pool ceiling signal** — if the private Investment Pool keeps growing rather than draining, your construction queue is the bottleneck. The Pool can only spend up to your private-allowed share of total construction. Fix: add Construction Sectors so the Pool can dump capital into new Manor Houses/Industries. Treat a fat investment pool as a "build more sectors" signal, not as savings. `[from beginner-tutorial ep16]`
 
 ## Game numbers & rules of thumb
 
@@ -51,6 +52,10 @@ Granting rights accelerates GDP growth on both sides (host pops own the building
 **Watching the Investment Pool.** The weekly change number is the early-warning indicator. Brief red is fine — a new foreign Regional HQ just spawned, things will normalize. Sustained red across multiple years is the trigger to act: nationalize foreign-owned levels (one building at a time, selecting only the Regional HQ's levels), or if you can't nationalize yet, attack the underlying construction cost so domestic private builders stay solvent.
 
 **Removal playbook.** To expel a foreign Regional HQ peacefully: (1) confirm your economic law allows nationalization (not Laissez-Faire); ideally move to Command Economy + Cooperative Ownership for free expropriation. (2) Open each building the Regional HQ owns and Nationalize only its levels, leaving the main-HQ-owned levels alone. (3) Once the Regional HQ holds zero levels it dissolves. To expel by force: win a war and take the buildings as part of the peace settlement.
+
+**Privatize-toggle as strategic-industry defense.** Keep Arms Industries and Military Shipyards toggled OFF for privatization so the pool can't seize them — you can't dismantle privately-owned levels mid-war. You can nationalize back later, but you pay compensation that adds to debt. `[from beginner-tutorial ep12]`
+
+**Workforce-owned vs Manor-House-owned matters for cash flow.** When the Investment Pool privatizes a state-owned building, you get the threshold cost as a lump sum into Treasury (~100-150k per level). If the building was *already* owned by local Workforce, privatization to Manor House yields nothing to Treasury — the Workforce-Manor House transfer doesn't flow through you. `[from beginner-tutorial ep01, ep02]`
 
 ## Common pitfalls
 

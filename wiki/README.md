@@ -48,6 +48,8 @@ After the path, mix and match by need.
 ### Diplomacy
 - [Power Blocs](diplomacy/power-blocs.md)
 - [Small-Nation Play](diplomacy/small-nation-play.md)
+- [Colonization](diplomacy/colonization.md) — laws, malaria gating, Colonial Affairs, post-conquest checklist
+- [Nation Formation](diplomacy/nation-formation.md) — peaceful vs Major Unification Play
 
 ### Military
 - [Army](military/army.md)

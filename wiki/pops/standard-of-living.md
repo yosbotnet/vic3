@@ -73,6 +73,10 @@ Welfare is where most campaigns either bleed money or generate Radicals. Default
 
 Finally, remember that SoL is a politics and migration engine, not just a number. Above-expected SoL generates Loyalists and pulls migrants in; below-expected generates Radicals and pushes them out. That means SoL changes have multi-year tails — never slash welfare in one step, and never raise it speculatively without checking the next-payment formula first.
 
+**Diagnostic workflow for radicalizing pops:** open Population → click the radicalizing pop → Economy tab. Read net income (income − expenses), then check spend breakdown to find the most-expensive need. To raise SoL, either (a) remove consumption tax on a good they buy heavily, (b) build local production of an overpriced need, or (c) upgrade the employing building's PM to convert Laborers into higher-wage professions. `[from beginner-tutorial ep03]`
+
+**Migration Attraction mapmode** shows per-state attraction (SoL, available arable land, Frontier Colonization, etc.). High-attraction states draw internal migration and trigger Mass Migration events. Reading this map tells you where labor will arrive and where the AI's settler nations are about to consume pops you wanted. `[from beginner-tutorial ep15]`
+
 ## Common pitfalls
 
 - Reading the "average annual government wage" headline as the normal wage — it bakes in profession multipliers. Hover the base wage field on a barracks instead.

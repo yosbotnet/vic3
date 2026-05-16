@@ -46,6 +46,10 @@ Once combat begins, the player's levers are: which Fronts to weight with manpowe
 
 15. **Race-to-minus-100 endgame** — When neither side can be pushed below zero by Wargoal occupation, the war becomes a sprint: whoever first occupies enough enemy territory (capital especially) to drive the *other* side to −100 wins. *Decision rule:* once you've started occupying their capital, **stop** offensive pushes elsewhere and consolidate to defend *your* capital. Both clocks are ticking simultaneously.
 
+16. **Naval invasion failure conditions** — the invasion fails if (a) the escorting fleet is defeated, or (b) you lose three land battles with zero landing progress accumulated. Each won battle adds a chunk of landing progress (~25-30% per battle in demos). (verify exact %) `[from beginner-tutorial ep07]`
+
+17. **Battle deployment infrastructure cap.** Even after a successful landing, the first battle deploys fewer battalions than the army size if the target state's infrastructure is low. The deployment cap appears to scale with infrastructure. `[from beginner-tutorial ep07]`
+
 ## Game numbers & rules of thumb
 
 Generalisable values from the demonstration scenario `[from 17-war-transvaal-naval-invades-the-british-mainland]`:
@@ -69,6 +73,10 @@ Generalisable values from the demonstration scenario `[from 17-war-transvaal-nav
 **Naval Invasions are how you reach Wargoals you can't walk to.** Stack commanders on each Navy so one Navy can Intercept, Raid, and Escort simultaneously. Watch the red Convoy-sunk alerts and dispatch Escort/Intercept to those sea nodes. For the landing itself, scout coastal states for the **weakest** garrison, match your landed Battalions to your Flotilla count to avoid the penalty, and prefer a coastal HQ with a dotted land crossing into the inland HQ you actually want — the beach is just the on-ramp. After a Navy is defeated it must repair at its HQ before it can move again, so never queue back-to-back invasions that you can't escort.
 
 **Endgame: watch both clocks.** If the war can't be resolved by Wargoal-state occupation, it becomes a race to drive the *other* side to −100. The temptation is to throw everything at their capital, but if your own capital Front is thin you can lose first. Once you're occupying their capital, consolidate at home — both war scores collapse simultaneously and the loser is whoever runs out of defended territory first. Also watch your treasury: hitting the debt limit costs **−5% offense/defense** and pauses construction, which against a richer opponent becomes a doom spiral.
+
+**Don't mobilize until late in the Diplomatic Play.** Mobilizing immediately consumes the full military-goods rate (small arms, artillery, ammunition jump instantly — not just grain). The 4-phase Play timer is your free prep window for fronts/generals/navies. Wait until phase 3-4 to mobilize. `[from beginner-tutorial ep06]`
+
+**Don't "Force Diplomatic Play" against tiny single-state targets.** Without Force, a much weaker target may capitulate immediately with no war fought. Force is only needed if you want to add additional wargoals/maneuvers. `[from beginner-tutorial ep06]`
 
 ## Common pitfalls
 

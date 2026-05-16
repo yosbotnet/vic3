@@ -121,6 +121,10 @@ The Japan run encountered an event offering a tech that "always happens" — a G
 5. **For every choice:** permanent unlock > temporary modifier. Spend temporaries on path-shorteners to pivotal techs.
 6. **Pre-check law prerequisites** when queuing reform — don't discover the missing tech mid-enactment.
 
+## Journal entries
+
+Most unpinned journal entries (Path to Liberalism, Urbanize, Patronize Romanticism, colonial branching-out entries) trigger from normal play; completion typically grants a temporary research-speed bonus or building throughput bonus. When given a choice, take research-speed. Pinned entries with explicit tasks (build a level-5 University, etc.) are usually cheap to chase given other tech-tree priorities. (verify specific entries against current patch — entry names shift) `[from beginner-tutorial ep04]`
+
 ## See also
 
 - **In this wiki:**

@@ -40,6 +40,10 @@ Law enactment is the engine that converts your political position into structura
 
 13. **Failing a promise** — All IGs lose 5 Amenability and you lose 5 Legitimacy for 5 years; +20% radicals from the failing IG; that IG specifically takes -10 Amenability for 15 years and -5 Approval. Delay (+3 years, -1 Approval) is available once. DECISION RULE: a missed promise scars the IG for 15 years — never accept a build commitment unless construction queue and resources already cover it.
 
+14. **Cabinet composition affects Success, not Stall.** Only IGs in the cabinet count clout toward enactment Success chance. Opposing IGs count toward Stall whether or not they're in cabinet. Swap a supporting IG into government to flip a 0% chance to ~20% — opposition from outside government stays the same. `[from beginner-tutorial ep02]`
+
+15. **Setback vs chance-loss tradeoff:** when an enactment event offers "take −X% chance" vs "take a Setback," prefer the Setback. You have 3 (or 4 with Creative Legislature) Setback budget; chance reductions multiply failure odds across all remaining monthly checkpoints. `[from beginner-tutorial ep03]`
+
 ## Game numbers & rules of thumb
 
 - Leader endorsement: +5% Success per oppose->neutral->endorse step `[from 05-how-to-pass-laws]`.
@@ -76,6 +80,7 @@ Law enactment is the engine that converts your political position into structura
 - Accepting a Journal-Entry build commitment you can't deliver in 10 years; -10 Amenability for 15 years effectively bans you from negotiating with that IG `[from 05-how-to-pass-laws]`.
 - Enacting an unpopular law before warming up the opposition — you pay full Angry x1.5 Stall instead of Happy x0 `[from 05-how-to-pass-laws]`.
 - Optimising for Success when Setbacks are the real fail condition — three checkpoint Stalls to 0% end the law regardless of your peak Success number `[from 05-how-to-pass-laws]`.
+- **2-year cancellation lockout** — canceling a law mid-enactment to start a different one prevents re-attempting the cancelled law for 2 years. (verify on current patch) `[from beginner-tutorial ep12]`
 
 ## See also
 

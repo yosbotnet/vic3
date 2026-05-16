@@ -40,6 +40,8 @@ The Building balance sheet is the weekly per-Building accounting tooltip that sh
 - Investment Pool contribution % from local-workforce Dividends: Laborers 0%, Farmers 10%, Clergy/Aristocrats 20% `[from 16-building-balance-sheet]`.
 - Owner Dividend floor = 15% of weekly revenue, paid from Cash Reserves if needed `[from 16-building-balance-sheet]`.
 - Government-owned debt penalty: −2% Government Dividends Efficiency per occurrence of debt secured against your own Buildings `[from 16-building-balance-sheet]`.
+- **Wage multipliers by profession:** machinists earn ~1.5× laborer wage, shopkeepers ~2×, engineers ~3×. Same ratios apply to dividend distribution when locally owned. `[from beginner-tutorial ep10]`
+- **Wage-adjustment thresholds:** a building only raises wages when its profit margin exceeds ~30%, holds steady between 15-30%, and tries to lower wages below 15%. The ceiling it raises toward is each pop's minimum-expected SoL × ~1.33. (verify exact constants on current patch) `[from beginner-tutorial ep10]`
 
 ## Strategy & playbook
 

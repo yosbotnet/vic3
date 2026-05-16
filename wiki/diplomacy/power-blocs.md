@@ -43,6 +43,7 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
 - Power Struggle: triggers at +20% Prestige over Leader; flip threshold +15% Prestige for 12 months (9 if reclaiming) `[from 09-power-blocs]`
 - Failed invite / rejection: −50 relations both ways `[from 09-power-blocs]`
 - Statue: +3 Prestige always, plus pillar-specific state bonus `[from 09-power-blocs]`
+- **Multilateral Alliances tech gates the 1-ally limit.** Before that tier-4 tech, a country can hold exactly one Alliance at a time. Plan your one ally for the war you actually intend to fight. (verify tech tier on current patch) `[from beginner-tutorial ep16]`
 
 ## Strategy & playbook
 **Pillar selection is the first and most permanent decision you make.** Because the Pillar is locked the moment you form, choose by **Leader action** and **Cohesion source**, not by Principles. If your endgame plan is to vassalize Belgium, the Netherlands, and Portugal for their colonies, that's Sovereign Empire. If you want to flip Spain's government to match yours to unlock a personal union path, that's Ideological Union. If you have no specific Leader action in mind and just want a reliable economic engine, Trade League is forgiving (low base Cohesion cost, no subject requirement) and remains the only option without the Sphere of Influence DLC. Whatever you pick, **assume you'll never change it** — your Pillar dictates your Cohesion math for the rest of the campaign.
@@ -54,6 +55,10 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
 **The Prestige check is the single most-missed mistake.** Before you spend a single Influence point on Treaty articles, look at the target's Prestige relative to yours. If they're already +20%, recruiting them hands them grounds for an immediate Power Struggle, and if they hit +15% Prestige for 12 months they take your Bloc. The canonical disaster is a US Trade League inviting France: France enters with materially more Prestige and starts the leadership challenge on day one. Either build your own Prestige first (statue, wars won, Companies, GDP) or accept that this Member is for someone else's Bloc.
 
 **Treat the Bloc as portfolio management.** Every Member contributes Mandate income (good), but also a Cohesion penalty if they're not your subject (bad), and may dilute your average Prestige share. Stop growing when adding the next Member drops you a Cohesion tier — the Mandate gain from the new Member won't make up for the multiplier loss across the whole Bloc. Recruit Great Powers and Major Powers preferentially (5× the Mandate contribution of a Minor) and use Minors mainly when they're your existing subjects (no Cohesion penalty) or when they unlock Strategic Adjacency on a more important target.
+
+**Per-target leverage tooltip:** hover a target country on the Power Bloc map to see your bloc's current AND predicted leverage vs all competing blocs, with per-week countdown. Identify the marginal rival and target *their* leverage source (improve relations to break adjacency, etc.) rather than only stacking your own. `[from beginner-tutorial ep09]`
+
+**Rivalry as an influence injection.** Declaring a Rival gives a one-shot ~400 Influence boost on top of ongoing per-week generation. Useful when a few hundred influence short of a formation cost or large diplomatic action — pick a country that will be your rival anyway. `[from beginner-tutorial ep09]`
 
 ## Common pitfalls
 - **Inviting a higher-Prestige Member.** Triggers an immediate Power Struggle. Check the Prestige delta BEFORE spending Influence on Treaty articles. `[from 09-power-blocs]`

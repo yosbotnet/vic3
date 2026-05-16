@@ -31,6 +31,10 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
 15. **Technology Spread is a free second queue** — You passively research one tech per tree branch that neighbours already have, with no choice over what spreads. Decision rule: open the Technology Spread panel and avoid actively researching anything already spreading to you.
 16. **Repeal Isolationism, Serfdom, and Traditionalism early** — Standard advice, but Isolationism is especially crippling on a small nation because it forbids trade entirely. Decision rule: prioritise repealing Isolationism above almost any other law change. See [Passing laws](../laws-and-politics/passing-laws.md).
 
+17. **Subject types.** Personal Union (0% tax to overlord, ~50% convoys, can break via dynastic events, integrate via Nationalism tech), Puppet (30% income, 50% convoys, +50 Liberty Desire from PU→Puppet conversion, can't start own wars), Vassal (income/convoy mid), Protectorate (most autonomous, doesn't count for nation-formation prerequisites). Decision rule: stay on Protectorate for income/infamy efficiency but demote to Dominion or lower when you need formation. `[from beginner-tutorial ep04, ep13, ep17]`
+
+18. **Trade Agreement / Defensive Pact / Alliance lifts the +50 Improve Relations cap.** Many actions (Reduce Autonomy on subjects, formation prerequisites) need relations above +50, which Improve Relations alone cannot reach. `[from beginner-tutorial ep13]`
+
 ## Game numbers & rules of thumb
 
 - **Interest rate:** small nations face ~40 % on debt versus very low rates for great powers. Bankruptcy lasts 10 years and scales penalties down over that period.

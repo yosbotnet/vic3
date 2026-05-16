@@ -29,6 +29,12 @@ Political Movements are the post-Sphere-of-Influence (Pivot of Empire) layer thr
 
 8. **Cancel-the-law escape hatch** — Stopping enactment before the Revolution bar hits 100% defuses the revolt, but imposes a 24-month cooldown on that law and may anger another movement that endorsed it. *Decision rule:* cancel only if the would-be rebel front is bigger than any opposing movement's reaction; otherwise ride it out. After the bar reaches 100%, cancelling no longer stops the war — your only exit is winning it.
 
+9. **Exile an IG leader** — right-click an IG leader to Exile them, replacing them with a random new leader. Requires that you don't have Protected Speech, the IG isn't in government, isn't rising up, isn't marginalized, and the leader isn't ideologically too similar to your ruler. Costs −5 IG approval + radicals. Useful when a strong personality (e.g., +20% IG political strength trait) is anchoring a hostile IG's clout. `[from beginner-tutorial ep15]`
+
+## Political Lobbies
+
+Foreign-relations Lobbies form between countries with high ideological similarity (e.g., "Swedish-Prussian Fellowship"). Each Lobby has an Appeasement score; performing the lobbied action (improve relations, trade agreement, rival their enemy) raises Appeasement, which feeds approval bonuses to the IGs that joined it. Refusing event demands tied to a Lobby lowers Appeasement. Useful happiness lever for borderline IG attitudes. `[from beginner-tutorial ep02, ep04]`
+
 ## Game numbers & rules of thumb
 - Activism >=25%: movement contributes to the enact / stall chance of its listed laws `[from 20-political-movements]`.
 - Activism >=50%: movement generates Radicals every month `[from 20-political-movements]`.
@@ -50,6 +56,8 @@ Political Movements are the post-Sphere-of-Influence (Pivot of Empire) layer thr
 **Use the cancel button strategically, not panickedly.** Cancelling defuses one revolt but costs you 24 months of cooldown on that law and can ignite a rival endorsing movement. Cancel only when the rebel bloc clearly outguns you AND no equally large movement was counting on the law passing. Often the right move with a small Revolution is to let it fire and crush it — Revolutions are how you cleanly purge an IG you cannot otherwise dislodge (IGs currently in revolt cannot enter government, but a defeated revolt leaves them weaker than a stalled law would).
 
 **Agitators and IG capture.** If you have recruited an Agitator and want them to lead an IG, your job is to inflate the movement they joined until that IG appears in the movement's Pressured Interest Groups list. That single relationship — movement pressures IG, IG can then be led by movement's Agitator — is the cleanest way to swap a hostile IG leader for a friendly one.
+
+**Pin Agitators in the Outliner** — pin specific agitators (or use the Politics outliner) to watch movement activism climb toward the threshold where you can grant the agitator IG leadership. Avoids re-navigating the politics screen. `[from beginner-tutorial ep15]`
 
 ## Common pitfalls
 - Garrisoning conscripts in states that end up in the secession bloc — they leave with the rebels and cannot be pulled back.
