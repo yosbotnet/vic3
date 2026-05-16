@@ -54,7 +54,7 @@ After the path, mix and match by need.
 - [War & Naval Invasions](military/war-and-naval-invasions.md)
 
 ### Case studies
-- [The Great Wave (Japan)](case-studies/japan-great-wave.md) — *deferred, see stub*
+- [The Great Wave (Japan)](case-studies/japan-great-wave.md) — 17-episode campaign synthesis
 
 ## Sources
 
