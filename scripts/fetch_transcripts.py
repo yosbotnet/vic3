@@ -197,7 +197,12 @@ def fetch_captions_api(video_id: str) -> list[dict]:
     return out
 
 
-def fetch_captions_ytdlp(video_id: str) -> list[dict]:
+def fetch_captions_ytdlp(
+    video_id: str,
+    *,
+    cookies_file: str | None = None,
+    cookies_from_browser: str | None = None,
+) -> list[dict]:
     """Fetch English auto captions via yt-dlp as JSON3.
 
     Returns the same list-of-dict shape as fetch_captions_api so the writer
@@ -214,8 +219,12 @@ def fetch_captions_ytdlp(video_id: str) -> list[dict]:
             "--sub-lang", "en,en-US,en-GB",
             "--sub-format", "json3",
             "-o", out_template,
-            url,
         ]
+        if cookies_file:
+            cmd += ["--cookies", cookies_file]
+        if cookies_from_browser:
+            cmd += ["--cookies-from-browser", cookies_from_browser]
+        cmd.append(url)
         subprocess.run(cmd, capture_output=True, text=True, check=True)
         candidates = sorted(Path(tmp).glob(f"{video_id}*.json3"))
         if not candidates:
@@ -246,10 +255,22 @@ CONFIG_PATH = REPO_ROOT / "scripts" / "playlists.json"
 TRANSCRIPTS_DIR = REPO_ROOT / "transcripts"
 
 
-def fetch_and_write(meta: VideoMeta, naming: str, force: bool, fetched_at: str) -> str:
+def fetch_and_write(
+    meta: VideoMeta,
+    naming: str,
+    force: bool,
+    fetched_at: str,
+    *,
+    cookies_file: str | None = None,
+    cookies_from_browser: str | None = None,
+) -> str:
     """Fetch one video's captions and write the markdown file.
 
     Returns one of: 'ok', 'skipped', 'fallback', 'failed:<reason>'.
+
+    When cookies are provided, skips the API and uses yt-dlp directly — the
+    youtube-transcript-api library lacks first-class cookie support in newer
+    versions and yt-dlp's cookie auth is what reliably bypasses 429s.
     """
     out_dir = TRANSCRIPTS_DIR / meta.playlist
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -258,22 +279,40 @@ def fetch_and_write(meta: VideoMeta, naming: str, force: bool, fetched_at: str) 
     if out_path.exists() and not force:
         return "skipped"
 
-    source = "youtube-transcript-api"
-    try:
-        transcript = fetch_captions_api(meta.video_id)
-    except Exception as api_err:
+    using_cookies = bool(cookies_file or cookies_from_browser)
+    if using_cookies:
         try:
-            transcript = fetch_captions_ytdlp(meta.video_id)
-            source = "yt-dlp-auto"
+            transcript = fetch_captions_ytdlp(
+                meta.video_id,
+                cookies_file=cookies_file,
+                cookies_from_browser=cookies_from_browser,
+            )
+            source = "yt-dlp-cookies"
         except Exception as ytdlp_err:
-            return f"failed:api={type(api_err).__name__} ytdlp={type(ytdlp_err).__name__}"
+            return f"failed:ytdlp={type(ytdlp_err).__name__}"
+    else:
+        try:
+            transcript = fetch_captions_api(meta.video_id)
+            source = "youtube-transcript-api"
+        except Exception as api_err:
+            try:
+                transcript = fetch_captions_ytdlp(meta.video_id)
+                source = "yt-dlp-auto"
+            except Exception as ytdlp_err:
+                return f"failed:api={type(api_err).__name__} ytdlp={type(ytdlp_err).__name__}"
 
     body = format_transcript_markdown(meta, transcript, source=source, fetched_at=fetched_at)
     out_path.write_text(body, encoding="utf-8")
     return "ok" if source == "youtube-transcript-api" else "fallback"
 
 
-def run(only: list[str] | None, force: bool) -> int:
+def run(
+    only: list[str] | None,
+    force: bool,
+    *,
+    cookies_file: str | None = None,
+    cookies_from_browser: str | None = None,
+) -> int:
     playlists = json.loads(CONFIG_PATH.read_text())
     fetched_at = date.today().isoformat()
     overall_failed: list[str] = []
@@ -285,7 +324,14 @@ def run(only: list[str] | None, force: bool) -> int:
         metas = enumerate_playlist(pl["url"], pl["slug"])
         print(f"  {len(metas)} videos", flush=True)
         for meta in metas:
-            status = fetch_and_write(meta, naming=pl["naming"], force=force, fetched_at=fetched_at)
+            status = fetch_and_write(
+                meta,
+                naming=pl["naming"],
+                force=force,
+                fetched_at=fetched_at,
+                cookies_file=cookies_file,
+                cookies_from_browser=cookies_from_browser,
+            )
             tag = status.split(":", 1)[0]
             print(f"  [{tag:8s}] {meta.playlist_index:02d} {meta.title}", flush=True)
             if status.startswith("failed"):
@@ -311,8 +357,22 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Overwrite existing transcript files",
     )
+    parser.add_argument(
+        "--cookies",
+        dest="cookies_file",
+        help="Path to a Netscape-format cookies.txt for yt-dlp",
+    )
+    parser.add_argument(
+        "--cookies-from-browser",
+        help="Browser to read cookies from (chrome, firefox, safari, ...)",
+    )
     args = parser.parse_args(argv)
-    return run(only=args.only, force=args.force)
+    return run(
+        only=args.only,
+        force=args.force,
+        cookies_file=args.cookies_file,
+        cookies_from_browser=args.cookies_from_browser,
+    )
 
 
 if __name__ == "__main__":
