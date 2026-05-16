@@ -1,0 +1,82 @@
+site_name: Victoria 3 Strategy Wiki
+site_description: Decision-rule layer distilled from Vic 3 YouTube tutorials, with a Japan Great Wave case study.
+site_url: https://yosbotnet.github.io/vic3/
+repo_url: https://github.com/yosbotnet/vic3
+repo_name: yosbotnet/vic3
+edit_uri: edit/main/wiki/
+
+docs_dir: wiki
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Pops:
+      - Standard of Living: pops/standard-of-living.md
+  - Economy:
+      - Treasury & Deficit Spending: economy/treasury-and-deficit.md
+      - Construction: economy/construction.md
+      - Companies: economy/companies.md
+      - Trade: economy/trade.md
+      - Building Balance Sheet: economy/building-balance-sheet.md
+      - Shipbuilding (1.13+): economy/shipbuilding.md
+      - Foreign Investment: economy/foreign-investment.md
+  - Laws & Politics:
+      - Passing Laws (1.12+): laws-and-politics/passing-laws.md
+      - Citizenship & Acceptance: laws-and-politics/citizenship-and-acceptance.md
+      - Cultural Fervor: laws-and-politics/cultural-fervor.md
+      - Slavery Abolition: laws-and-politics/slavery-abolition.md
+      - Political Movements: laws-and-politics/political-movements.md
+  - Diplomacy:
+      - Power Blocs: diplomacy/power-blocs.md
+      - Small-Nation Play: diplomacy/small-nation-play.md
+  - Military:
+      - Army (2025): military/army.md
+      - Navy (2025): military/navy.md
+      - War & Naval Invasions: military/war-and-naval-invasions.md
+  - Case Studies:
+      - The Great Wave (Japan): case-studies/japan-great-wave.md

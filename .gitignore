@@ -5,4 +5,5 @@ __pycache__/
 *.vtt
 *.srt
 *.zip
+site/
 .DS_Store
