@@ -71,7 +71,7 @@ Granting rights accelerates GDP growth on both sides (host pops own the building
   - [Power Blocs](../diplomacy/power-blocs.md)
   - [Small Nation Play](../diplomacy/small-nation-play.md)
   - [Passing Laws](../laws-and-politics/passing-laws.md)
-  - [Japan: Great Wave](../case-studies/japan-great-wave.md)
+  - [Japan: Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - [Companies](https://vic3.paradoxwikis.com/Companies)
   - [Power_blocs](https://vic3.paradoxwikis.com/Power_blocs)

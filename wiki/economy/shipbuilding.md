@@ -79,7 +79,7 @@ The system matters from day one: navy demand is heavy in wood, hardwood, and fab
   - [military/war-and-naval-invasions.md](../military/war-and-naval-invasions.md) — convoys, transport fleets, invasion mechanics
   - [economy/construction.md](./construction.md) — competing demand on wood, hardwood, fabric
   - [economy/building-balance-sheet.md](./building-balance-sheet.md) — reading Shipyard profitability and Clipper prices
-  - [case-studies/japan-great-wave.md](../case-studies/japan-great-wave.md) — a 1.13 playthrough using the new system
+  - [case-studies/japan-great-wave/index.md](../case-studies/japan-great-wave/index.md) — a 1.13 playthrough using the new system
 - **Official wiki:**
   - [Naval_warfare](https://vic3.paradoxwikis.com/Naval_warfare)
   - [Laws](https://vic3.paradoxwikis.com/Laws)

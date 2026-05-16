@@ -82,7 +82,7 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
   - [Passing laws](../laws-and-politics/passing-laws.md), [Citizenship and acceptance](../laws-and-politics/citizenship-and-acceptance.md), [Cultural fervor](../laws-and-politics/cultural-fervor.md), [Slavery abolition](../laws-and-politics/slavery-abolition.md), [Political movements](../laws-and-politics/political-movements.md)
   - [Power blocs](./power-blocs.md)
   - [Army](../military/army.md), [Navy](../military/navy.md), [War and naval invasions](../military/war-and-naval-invasions.md)
-  - [Japan: the Great Wave](../case-studies/japan-great-wave.md)
+  - [Japan: the Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - [Rank](https://vic3.paradoxwikis.com/Rank)
   - [Treasury](https://vic3.paradoxwikis.com/Treasury)

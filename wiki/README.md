@@ -54,7 +54,13 @@ After the path, mix and match by need.
 - [War & Naval Invasions](military/war-and-naval-invasions.md)
 
 ### Case studies
-- [The Great Wave (Japan)](case-studies/japan-great-wave.md) — 17-episode campaign synthesis
+- **The Great Wave (Japan)** — 17-episode campaign deep-dive, split into 5 phases:
+  - [Overview & cross-cutting lessons](case-studies/japan-great-wave/index.md)
+  - [Phase 1 — Opening the closed country](case-studies/japan-great-wave/phase-1-opening.md)
+  - [Phase 2 — The Honorable Restoration scramble](case-studies/japan-great-wave/phase-2-restoration.md)
+  - [Phase 3 — Recognition and the constitutional pivot](case-studies/japan-great-wave/phase-3-recognition.md)
+  - [Phase 4 — Economy under stress, Korea aborted](case-studies/japan-great-wave/phase-4-economic-stress.md)
+  - [Phase 5 — Power-bloc expansion and unraveling](case-studies/japan-great-wave/phase-5-expansion.md)
 
 ## Sources
 

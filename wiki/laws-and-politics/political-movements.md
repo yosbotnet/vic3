@@ -66,7 +66,7 @@ Political Movements are the post-Sphere-of-Influence (Pivot of Empire) layer thr
   - [Cultural Fervor](cultural-fervor.md)
   - [Slavery Abolition](slavery-abolition.md)
   - [Standard of Living](../pops/standard-of-living.md)
-  - [Japan: The Great Wave](../case-studies/japan-great-wave.md)
+  - [Japan: The Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - https://vic3.paradoxwikis.com/Political_movements
   - https://vic3.paradoxwikis.com/Revolutions

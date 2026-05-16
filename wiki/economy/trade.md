@@ -110,7 +110,7 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
   - [Standard of Living](../pops/standard-of-living.md)
   - [Power Blocs](../diplomacy/power-blocs.md)
   - [Small Nation Play](../diplomacy/small-nation-play.md)
-  - [Japan – Great Wave](../case-studies/japan-great-wave.md)
+  - [Japan – Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - [Markets](https://vic3.paradoxwikis.com/Markets)
   - [Goods](https://vic3.paradoxwikis.com/Goods)

@@ -60,7 +60,7 @@ Once a Company hits Prosperous, the Prestige Good Journal Entry is the prize: st
 - **Trying to reach Prosperity on a small/tall Company** — the staffed-levels component effectively requires industrial scale.
 
 ## See also
-- **In this wiki:** [Construction](construction.md), [Building balance sheet](building-balance-sheet.md), [Trade](trade.md), [Treasury and deficit](treasury-and-deficit.md), [Foreign investment](foreign-investment.md), [Power blocs](../diplomacy/power-blocs.md), [Standard of living](../pops/standard-of-living.md), [Japan: the Great Wave](../case-studies/japan-great-wave.md)
+- **In this wiki:** [Construction](construction.md), [Building balance sheet](building-balance-sheet.md), [Trade](trade.md), [Treasury and deficit](treasury-and-deficit.md), [Foreign investment](foreign-investment.md), [Power blocs](../diplomacy/power-blocs.md), [Standard of living](../pops/standard-of-living.md), [Japan: the Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:** [Companies](https://vic3.paradoxwikis.com/Companies), [Buildings](https://vic3.paradoxwikis.com/Buildings), [Production_methods](https://vic3.paradoxwikis.com/Production_methods)
 
 ## Sources

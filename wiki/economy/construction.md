@@ -83,7 +83,7 @@ All from `[from 11-construction]`:
   - [economy/foreign-investment.md](./foreign-investment.md)
   - [economy/shipbuilding.md](./shipbuilding.md)
   - [pops/standard-of-living.md](../pops/standard-of-living.md)
-  - [case-studies/japan-great-wave.md](../case-studies/japan-great-wave.md)
+  - [case-studies/japan-great-wave/index.md](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - https://vic3.paradoxwikis.com/Buildings
   - https://vic3.paradoxwikis.com/Production_methods

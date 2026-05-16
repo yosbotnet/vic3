@@ -84,7 +84,7 @@ Law enactment is the engine that converts your political position into structura
   - [Citizenship and Acceptance](citizenship-and-acceptance.md)
   - [Cultural Fervor](cultural-fervor.md)
   - [Slavery Abolition](slavery-abolition.md)
-  - [Japan: The Great Wave](../case-studies/japan-great-wave.md)
+  - [Japan: The Great Wave](../case-studies/japan-great-wave/index.md)
 - **Official wiki:**
   - [Laws](https://vic3.paradoxwikis.com/Laws)
   - [Interest_groups](https://vic3.paradoxwikis.com/Interest_groups)
