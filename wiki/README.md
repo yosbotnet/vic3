@@ -64,6 +64,7 @@ After the path, mix and match by need.
   - [Phase 3 — Recognition and the constitutional pivot](case-studies/japan-great-wave/phase-3-recognition.md)
   - [Phase 4 — Economy under stress, Korea aborted](case-studies/japan-great-wave/phase-4-economic-stress.md)
   - [Phase 5 — Power-bloc expansion and unraveling](case-studies/japan-great-wave/phase-5-expansion.md)
+- [Restoring the Spanish Empire (Cuba)](case-studies/cuba-spanish-restoration.md) — single-video showcase: plantation economy, Dominion war, reconquista, the Britain wall, coffee colonialism, Council Republic.
 
 ## Sources
 
