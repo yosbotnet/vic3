@@ -61,15 +61,23 @@ After the path, mix and match by need.
 - [War & Naval Invasions](military/war-and-naval-invasions.md)
 
 ### Case studies
-- **The Great Wave (Japan)** — 17-episode campaign deep-dive, split into 5 phases:
-  - [Overview & cross-cutting lessons](case-studies/japan-great-wave/index.md)
-  - [Phase 1 — Opening the closed country](case-studies/japan-great-wave/phase-1-opening.md)
-  - [Phase 2 — The Honorable Restoration scramble](case-studies/japan-great-wave/phase-2-restoration.md)
-  - [Phase 3 — Recognition and the constitutional pivot](case-studies/japan-great-wave/phase-3-recognition.md)
-  - [Phase 4 — Economy under stress, Korea aborted](case-studies/japan-great-wave/phase-4-economic-stress.md)
-  - [Phase 5 — Power-bloc expansion and unraveling](case-studies/japan-great-wave/phase-5-expansion.md)
-- [Restoring the Spanish Empire (Cuba)](case-studies/cuba-spanish-restoration.md) — single-video showcase: plantation economy, Dominion war, reconquista, the Britain wall, coffee colonialism, Council Republic.
+
+**Japan — The Great Wave** — 17-episode campaign deep-dive, split into 5 phases:
+
+- [Overview & cross-cutting lessons](case-studies/japan-great-wave/index.md)
+- [Phase 1 — Opening the closed country](case-studies/japan-great-wave/phase-1-opening.md)
+- [Phase 2 — The Honorable Restoration scramble](case-studies/japan-great-wave/phase-2-restoration.md)
+- [Phase 3 — Recognition and the constitutional pivot](case-studies/japan-great-wave/phase-3-recognition.md)
+- [Phase 4 — Economy under stress, Korea aborted](case-studies/japan-great-wave/phase-4-economic-stress.md)
+- [Phase 5 — Power-bloc expansion and unraveling](case-studies/japan-great-wave/phase-5-expansion.md)
+
+**Belgium — Conquer, Colonize, Reaction**
+
 - [Belgium — Conquer, Colonize, Reaction](case-studies/belgium-conquer-colonize-react.md) — applied synthesis from the 2025 comprehensive tutorial: subject-market war trick, unincorporated Congo plantations, and forcing an absolute monarchy onto a liberal country (the hard goal that fights back).
+
+**Cuba — Restoring the Spanish Empire**
+
+- [Restoring the Spanish Empire (Cuba)](case-studies/cuba-spanish-restoration.md) — single-video showcase: plantation economy, Dominion war, reconquista, the Britain wall, coffee colonialism, Council Republic.
 
 ## Sources
 
