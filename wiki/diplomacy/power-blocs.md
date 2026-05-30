@@ -84,7 +84,7 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
   - [Companies](../economy/companies.md) — Companies feed Prestige, which gates Power Struggles.
   - [War and Naval Invasions](../military/war-and-naval-invasions.md) — failed invites and rejected demands can escalate into Diplomatic Plays.
   - [Passing Laws](../laws-and-politics/passing-laws.md) — your law profile constrains which Pillars and Principles work for you.
-  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — subjects acquired by conquest auto-join the Bloc; the run also shows Diplomatic Plays as wars-on-a-timer.
+  - [Belgium — Conquer, Colonize, Reaction](../case-studies/belgium-conquer-colonize-react.md) — subjects acquired by conquest auto-join the Bloc; the run also shows Diplomatic Plays as wars-on-a-timer.
 - **Official wiki:**
   - [Power_blocs](https://vic3.paradoxwikis.com/Power_blocs)
   - [Diplomacy](https://vic3.paradoxwikis.com/Diplomacy)

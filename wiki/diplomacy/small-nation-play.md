@@ -101,7 +101,7 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
   - [Power blocs](./power-blocs.md)
   - [Army](../military/army.md), [Navy](../military/navy.md), [War and naval invasions](../military/war-and-naval-invasions.md)
   - [Japan: the Great Wave](../case-studies/japan-great-wave/index.md)
-  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — the subject-market cheat (Prussia) and keeping Liberty Desire above 25 in practice.
+  - [Belgium — Conquer, Colonize, Reaction](../case-studies/belgium-conquer-colonize-react.md) — the subject-market cheat (Prussia) and keeping Liberty Desire above 25 in practice.
 - **Official wiki:**
   - [Rank](https://vic3.paradoxwikis.com/Rank)
   - [Treasury](https://vic3.paradoxwikis.com/Treasury)

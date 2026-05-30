@@ -105,7 +105,7 @@ Success looks like: a non-malaria coastal foothold acquired before Britain or Fr
   - [Small Nation Play](small-nation-play.md) — flip side: surviving great-power colonial Interests in your own region.
   - [War and Naval Invasions](../military/war-and-naval-invasions.md) — many colonies arrive via Make-Subject diplo play + marine naval invasion, not via slow colonisation.
   - [Japan: Phase 5 Expansion](../case-studies/japan-great-wave/phase-5-expansion.md) — the Bornean protectorate chain (Brunei, Sulu, Lanfang, Bulongan) and the "failed to protect" truce-window loss.
-  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — the Congo left unincorporated for collapsed-wage plantation profit, the violent-treatment decree on a fresh conquest, and malaria-prevention tech gating equatorial colonisation.
+  - [Belgium — Conquer, Colonize, Reaction](../case-studies/belgium-conquer-colonize-react.md) — the Congo left unincorporated for collapsed-wage plantation profit, the violent-treatment decree on a fresh conquest, and malaria-prevention tech gating equatorial colonisation.
 - **Official wiki:**
   - [Colonization](https://vic3.paradoxwikis.com/Colonization)
   - [Decentralized power](https://vic3.paradoxwikis.com/Decentralized_power)
