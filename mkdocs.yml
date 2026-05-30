@@ -92,4 +92,6 @@ nav:
           - "Phase 4 — Economy under stress, Korea aborted": case-studies/japan-great-wave/phase-4-economic-stress.md
           - "Phase 5 — Power-bloc expansion and unraveling": case-studies/japan-great-wave/phase-5-expansion.md
       - Belgium — Conquer, Colonize, Reaction: case-studies/belgium-conquer-colonize-react.md
-      - Cuba — Restoring the Spanish Empire: case-studies/cuba-spanish-restoration.md
+      - Cuba:
+          - "Restoring the Spanish Empire": case-studies/cuba-spanish-restoration.md
+          - "Early & Mid Game (step by step)": case-studies/cuba-early-mid-game.md
