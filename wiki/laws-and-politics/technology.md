@@ -13,6 +13,7 @@ sources:
   - ../../notes/great-wave-japan/ep16.md
   - ../../notes/tutorials/21-how-to-play-as-a-small-nation.md
   - ../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md
+  - ../../notes/comprehensive-tutorial-2025/03-domestic-politics.md
 wiki:
   - https://vic3.paradoxwikis.com/Technology
 generated_at: 2026-05-16
@@ -43,6 +44,8 @@ Technology is the long-term lever for everything that compounds in Victoria 3 �
 8. **Tech prerequisites gate laws and buildings; pre-check them** — Some laws and buildings are locked behind specific techs (Warrior Caste repeal needs General Training; iron-frame buildings need Atmospheric Engine; viable engine ships need the propulsion tier). Read the prerequisite chain *before* queuing the law/building; reordering reactively wastes journal-entry time windows [[ep01](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep01.md), [ep10](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep10.md), [ep11](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep11.md)].
 
 9. **Universities are government-only — research costs government wages** — The two halves of research speed are literacy (it raises how much Innovation/research you can *hold*, the cap) and Universities (they *generate* the actual research). There are **no privatised Universities** — the building is always government-run, so every level of research output is paid for out of government wages, not private investment. Decision rule: budget Universities as a *government expense*, not a self-financing private building; in a tight treasury, rushing a slow high-tier tech via mass Universities (e.g. malaria prevention for a Congo colony plan) means accepting a real, ongoing wage bill — there is no privatise-it escape hatch (2025 comprehensive tutorial, [2:02:30]).
+
+10. **Institutions & bureaucracy: the maintenance loop** — Certain laws *create* an institution in your nation (e.g. an education institution from a schooling law). In the institutions tab you then spend **bureaucracy** to raise an institution's **size** for stronger country-wide buffs — and you must keep paying that bureaucracy to *maintain* the size; it is an ongoing upkeep, not a one-off purchase. Bureaucracy itself comes from the **Government Administration** building, which is always government-run and can get expensive as you scale. Decision rule: an institution's buffs are usually worthwhile, but each notch of size is a permanent bureaucracy bill — before raising an education or healthcare institution, confirm you can sustain the Government Administration (and keep paper cheap, since it feeds the admin cost) without forcing a bureaucracy deficit (2025 comprehensive tutorial, [43:00]).
 
 ## Game numbers & rules of thumb
 
@@ -142,3 +145,7 @@ Most unpinned journal entries (Path to Liberalism, Urbanize, Patronize Romantici
 - **Official wiki:**
   - [Technology](https://vic3.paradoxwikis.com/Technology) — full tech tree, per-tech effects.
   - [Institutions](https://vic3.paradoxwikis.com/Institutions) — Public Schools and other unlock-permanent rewards.
+
+## Sources
+
+- `notes/comprehensive-tutorial-2025/03-domestic-politics.md` (chapter "3. Domestic Politics" of "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight", Tarkusarkusar, 2025-12-16) — institutions & bureaucracy maintenance loop.

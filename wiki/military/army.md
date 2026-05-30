@@ -60,6 +60,8 @@ The Army is Victoria 3's land force, but mechanically it is a supply-chain probl
 
 23. **Never grant an army bonus for a good you don't produce** [UPDATE] — Mobilization options and supplements are paid in *goods*, not money; granting one whose input good isn't on your Market causes a shortage that *caps organization* (a 36% shortage caps org at 63%), crippling the Army. This bites far harder than in older patches, where an absent good was still net-positive. *Decision rule:* before enabling any mobilization bonus, confirm its input good is supplied; if it isn't, leave the bonus off. (2025 comprehensive tutorial, [1:21:02])
 
+24. **A mobilized Army is demand into your own economy — but a price spike that can bankrupt you** — Mobilization is not purely a cost. The Army buys its goods (guns, grain, iron, artillery) **on your Market**, so a war is a demand injection that can *stimulate* your domestic producers. The catch is the same demand spike raises **market prices** on those goods — in the demo, mobilizing pushed the Army's goods bill from ~2.6k to ~3.1k as prices rose — and if you can't absorb the price jump the war can **bankrupt** you. *Decision rule:* read mobilization as a two-sided event: it feeds your arms/grain/iron producers (build that capacity ahead of a planned war so the demand lands at home, not on imports), but watch the price curve on military goods — if prices spiral past what your treasury can pay, the stimulus turns into a default. (2025 comprehensive tutorial, [1:06:31])
+
 ## Game numbers & rules of thumb
 Generalisable values from `[from 19-military-army]`:
 
