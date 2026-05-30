@@ -78,7 +78,7 @@ After the path, mix and match by need.
 **Cuba — Restoring the Spanish Empire**
 
 - [Restoring the Spanish Empire (Cuba)](case-studies/cuba-spanish-restoration.md) — single-video showcase: plantation economy, Dominion war, reconquista, the Britain wall, coffee colonialism, Council Republic.
-- [Early & mid game, step by step](case-studies/cuba-early-mid-game.md) — granular follow-along playbook from the 5½-hour "Trading in Sin" live (1836 → ~1883): infrastructure-before-plantations, the cigars + sugar + Bacardi sin economy, Dominion via a conscript bluff, the war of independence, and the mid-game consumer-economy scaling.
+- [Step-by-step playthrough (1836→1921)](case-studies/cuba-early-mid-game.md) — granular follow-along of the full 5½-hour "Trading in Sin" live: infrastructure-before-plantations, the cigars + sugar + Bacardi sin economy, Dominion via a conscript bluff, the war of independence, consumer/automobile scaling, and a #1-Great-Power Laissez-Faire endgame.
 
 ## Sources
 

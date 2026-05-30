@@ -4,11 +4,11 @@ sources:
 generated_at: 2026-05-30
 ---
 
-# Cuba — Early & Mid Game, Step by Step
+# Cuba — Step-by-Step Playthrough
 
 **Source:** [Trading in Sin as CUBA LIVE! | Victoria 3 GIGACHAD Live](https://www.youtube.com/watch?v=cn0RBR3aUfw) by Tarkusarkusar, 2025-12-10 (Great Wave DLC, early-access build). Notes: [01-early-mid-game](https://github.com/yosbotnet/vic3/blob/main/notes/cuba-trading-in-sin-live/01-early-mid-game.md).
 
-This is the **click-by-click companion** to the [Cuba case study](cuba-spanish-restoration.md). That page is the strategic highlight reel; this is the slow opening — a follow-along playbook covering roughly the **first 3½ hours** of the run, from the 1836 start to ~1883. The run is so deliberate it only reaches ~1860 by the 2-hour mark, so **"early game" is the first ~2 hours and "mid game" is ~2–3½ hours**. The early game has a single near-correct opening worth copying exactly; the mid game branches, so treat Phase 6 as principles rather than a script, and **take it your own way from there**.
+This is the **click-by-click companion** to the [Cuba case study](cuba-spanish-restoration.md). That page is the strategic highlight reel; this is the slow version — a follow-along playbook covering the **whole run, 1836 → 1921**. It's deliberate (only ~1860 by the 2-hour mark, ~1883 by 3½ hours), so the phases map to **early game (≈ first 2h), mid game (≈ 2–3½h), and the late-game endgame (≈ 3½h–end)**. The early game has a single near-correct opening worth copying exactly; the mid and late game branch, so treat Phases 6–7 as principles rather than a script and **make them your own**.
 
 !!! note "Patch context"
     From a December 2025 Great Wave DLC early-access stream, so some specifics (the four Cuban prestige companies, the governor-request feature, a couple of production methods, one or two bugs called out below) are DLC/patch-dependent — the *sequence and reasoning* transfer even if a number has moved. Timestamps like `[0:13:30]` point into the source VOD.
@@ -87,7 +87,22 @@ From here the run branches — these are **principles, not a script** (and sever
     - The **"short-term tax cut" event is actually *permanent*** on this build — take "temporary embarrassment" instead `[2:32:32]`.
     - **Electricity micromanagement is miserable** — set it to auto-expand + subsidise and forget it `[2:56:01]`.
 
-**From here, play your own game.** You have a migration-fed, sin-goods + consumer economy, independence, Great Power status, a power bloc, and colonies feeding your inputs. The VOD pushes on to ~1883 with more South-American conquest and the law tree toward a socialist endgame — but that's the situational part. The opening through Phase 5 is the bit worth copying exactly; the mid-game above is the bit worth understanding and then doing your way.
+By now you have a migration-fed, sin-goods + consumer economy, independence, Great Power status, a power bloc, and colonies feeding your inputs. The opening through Phase 5 is the bit worth copying exactly; from here on, copy the *habits* below — not the conquests.
+
+## Phase 7 — The late game & how it ends (~1883 → 1921)
+
+Pure principles now: the wars and timings are RNG, but the economic habits transfer.
+
+1. **You do not have to go communist — this run wins on Laissez-Faire.** When the Trade-Union/Communist IG gets powerful, *appease* it with social laws (Workers' Protections → Graduated Taxation → Right to Associate, plus Women's Suffrage) and even seat it in government, but **keep your economic system on Laissez-Faire**. He flirts with the command-economy path the whole game and never takes it — "communism kind of just makes your economy die" `[3:48:30]` `[5:26:01]`.
+2. **Women's Suffrage is a labour-supply lever** — it pulls ~30% more workers into the market. Wages dip hard short-term (≈3.3 → 1.48) but capitalist profits surge `[4:02:31]` `[4:15:30]`.
+3. **Pass Free Trade under a left coalition by swapping one market-liberal industrialist into government** — the protectionist Industrialist IG is what blocks it `[4:12:36]`.
+4. **Two habits that save you from false panics:** never run labour-saving PMs while pops are unemployed (he had ~150k idle), and after any big PM/institution/welfare change **wait a month or two for the market to re-settle before diagnosing a profit "crash"** `[4:08:33]` `[4:10:01]`.
+5. **Don't sit on the investment pool** — he left £56M, then £275M, idle; keep construction running (steel-frame buildings, more sectors) `[4:08:01]` `[5:19:00]`.
+6. **Cars are the breakout late-game earner** (Automobiles + Steel Motors) — they need rubber, which is the real reason the Congo colony matters `[4:33:30]`.
+7. **Release low-SoL colonies as colonial nations** so their numbers stop dragging your average SoL (Congo sat at ~7); released countries inherit your laws `[4:37:30]` `[5:01:00]`.
+8. **Late wars (Brazil, then a regime-change war on communist Spain):** split your army to **defend Havana before any offensive landing**, use the **teleport-army trick** (dismiss commanders, disband and rebuild the army at a home front) to relocate troops, and accept a white peace when a transatlantic landing just won't land `[4:48:08]` `[4:53:00]` `[5:24:00]`.
+
+**How it ends (1921):** Cuba finishes **#1 Great Power**, ~**£450M GDP** after forming the **Antillian Confederation** (puppets first), Havana at ~30 standard of living — and still on **Laissez-Faire**. The sin economy plus cars carries it: roughly, per week, cigars £188k, sugar £238k, Bacardi/groceries £500k, cars £1.15M. Two honest closing notes from him: the Cuba DLC "feels a little OP," and incorporating the confederation's subjects was *probably worse* than leaving them autonomous tax-payers — so don't treat that last step as obviously correct `[5:25:31]` `[5:26:01]`.
 
 ## Pitfalls checklist
 
@@ -101,6 +116,9 @@ From here the run branches — these are **principles, not a script** (and sever
 - [ ] Refused the (permanent) "short-term tax cut" event `[2:32:32]`
 - [ ] Converted protectorates to puppets *before* trying to form the confederation `[3:27:03]`
 - [ ] Kept strategic inputs (grain, lead) off war-vulnerable subjects `[3:33:30]`
+- [ ] Kept the economy on Laissez-Faire — appeased the trade unions without flipping to a command economy `[5:26:01]`
+- [ ] Didn't run labour-saving PMs while pops were unemployed, and didn't leave the investment pool idle `[4:08:33]`
+- [ ] Defended Havana before offensive landings in the late wars too `[4:48:08]`
 
 ## See also
 

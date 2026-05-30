@@ -1,16 +1,16 @@
 ---
 source_transcript: ../../transcripts/cuba-trading-in-sin-live/01-trading-in-sin.md
 source_video: https://www.youtube.com/watch?v=cn0RBR3aUfw
-scope: "Early + mid game — first ~3h33m of a 5h29m VOD (1836 start through ~1883: independence, Caribbean Union, first protectorate wars, industrial scaling, the Bacardi liquor leg, Siam/Congo colonization, the Brazil war)"
+scope: "Full run — the complete 5h29m VOD (1836 → 1921): opening, the cigars/sugar/rum sin economy, Dominion, independence, Caribbean Union + South-American wars, industrial + consumer scaling, and the Laissez-Faire endgame as #1 Great Power"
 generated_at: 2026-05-30
 ---
 
 # Cuba — Trading in Sin (live), early & mid game
 
-**Source:** [Trading in Sin as CUBA LIVE! | Victoria 3 GIGACHAD Live](https://www.youtube.com/watch?v=cn0RBR3aUfw) by Tarkusarkusar, 2025-12-10, 5:29:55. Great Wave DLC, early-access/beta build (several patch bugs are narrated as such). This is the *slow, step-by-step* version of his Cuba run — the [28-minute Cuba case study](../../wiki/case-studies/cuba-spanish-restoration.md) is the highlight reel; this VOD is the click-by-click execution. Distilled here: the first ~3h33m (1836 → ~1883). The run is so slow it only reaches ~1860 by the 2-hour mark and ~1883 by 3.5 hours, so "early game" ≈ first 2h and "mid game" ≈ 2h–3.5h.
+**Source:** [Trading in Sin as CUBA LIVE! | Victoria 3 GIGACHAD Live](https://www.youtube.com/watch?v=cn0RBR3aUfw) by Tarkusarkusar, 2025-12-10, 5:29:55. Great Wave DLC, early-access/beta build (several patch bugs are narrated as such). This is the *slow, step-by-step* version of his Cuba run — the [28-minute Cuba case study](../../wiki/case-studies/cuba-spanish-restoration.md) is the highlight reel; this VOD is the click-by-click execution. Distilled here: the complete run (1836 → 1921). It's slow — ~1860 by the 2-hour mark, ~1883 by 3.5h, ending ~1921 — so "early game" ≈ first 2h, "mid game" ≈ 2h–3.5h, and "late game / endgame" ≈ 3.5h–end.
 
 ## What happened
-A "trading in sin" Cuba whose economy is built on the three (later four) Cuban prestige-goods companies the DLC adds — **sugar**, **cigars**, **liquor (Bacardi rum)**, plus groceries downstream. The opening deliberately is *not* a plantation rush: the first ~40 minutes build the construction/infrastructure backbone (lumber → tools → iron → railways) before plantations are spammed. Migration is pumped (low taxes + Greener Grass decree + healthcare), drawing French and Mexican mass-migration waves. Cuba takes **Dominion** peacefully via a conscript-bluff, runs cigars + sugar through the Spanish market, then fights an **independence war** (forced by expelling Spanish diplomats), wins it off a Spanish Carlist uprising, hits **Great Power** immediately and bans slavery via the independence journal (unlocking Afro-Caribbean culture). The mid game forms a **Caribbean Union** bloc, runs cheap protectorate wars across northern South America, nationalises foreign industry then passes Laissez-Faire, scales a near-infinite consumer-goods economy (groceries/liquor), adds the **Bacardi** rum leg, colonises for inputs (Siam for rice/opium, Congo for cotton/dyes), and survives a defensive **Brazil war** — all by ~1883.
+A "trading in sin" Cuba whose economy is built on the three (later four) Cuban prestige-goods companies the DLC adds — **sugar**, **cigars**, **liquor (Bacardi rum)**, plus groceries downstream. The opening deliberately is *not* a plantation rush: the first ~40 minutes build the construction/infrastructure backbone (lumber → tools → iron → railways) before plantations are spammed. Migration is pumped (low taxes + Greener Grass decree + healthcare), drawing French and Mexican mass-migration waves. Cuba takes **Dominion** peacefully via a conscript-bluff, runs cigars + sugar through the Spanish market, then fights an **independence war** (forced by expelling Spanish diplomats), wins it off a Spanish Carlist uprising, hits **Great Power** immediately and bans slavery via the independence journal (unlocking Afro-Caribbean culture). The mid game forms a **Caribbean Union** bloc, runs cheap protectorate wars across northern South America, nationalises foreign industry then passes Laissez-Faire, scales a near-infinite consumer-goods economy (groceries/liquor), adds the **Bacardi** rum leg, colonises for inputs (Siam for rice/opium, Congo for cotton/dyes), and survives a defensive **Brazil war** by ~1883. The late game scales a consumer + automobile economy to **#1 Great Power** and forms the **Antillian Confederation** in 1921 — all while staying on **Laissez-Faire** the entire game: he flirts with the communist path and keeps the Trade Unions appeased with social laws, but never switches the economic system, reckoning communism "makes your economy die."
 
 ## Decisions by phase (chronological, timestamped)
 
@@ -86,6 +86,26 @@ A "trading in sin" Cuba whose economy is built on the three (later four) Cuban p
 - **Push Compulsory Primary Schools** (disempowers the Church IG; better education tier) — journal demands reaching 20 bureaucracy (~£91k/10yr) `[3:01:30][3:11:34]`.
 - **Research Socialism timed for a free regulatory-law reward** (chose wage subsidies); move toward anti-clericalism/church-state separation `[3:07:38][2:51:00]`.
 
+### Phase 6 — Late game / endgame (~1883 → 1921)
+- **First Brazil war (defensive)** — navy was out of position in Siam (reloaded to bring it home); the Rio landing failed against Brazil's 240-unit army (48 defense), so he **conceded Peru-Bolivia** (and with it his lead supply) rather than grind `[3:30:00][3:36:01][3:39:01]`.
+- **Tariff grocery exports during the war** — the mobilised army's food consumption spiked domestic prices and radicals; tariff to keep groceries at home, demobilise once it ends `[3:41:00][3:43:04]`.
+- **Patch the lost lead with tech, not reconquest** — rush **compression ignition** (its PMs use less lead) `[3:48:02]`.
+- **Manage the Trade-Union/Communist IG without going communist** — at ~53% clout with "no legitimate party", pass **Workers' Protections** → seat them → pass **Graduated Taxation** and **Right to Associate** (their demands), but keep the economic system on Laissez-Faire `[3:48:30][3:54:00][3:58:02]`.
+- **Women's Suffrage to unlock labour** — ~30% more workers enter; base wage drops ~3.3 → 1.48 short-term while capitalist profits surge `[4:02:31][4:15:30]`.
+- **Don't run labour-saving PMs while ~150k pops are unemployed** `[4:08:33]`.
+- **Don't sit on the investment pool** — £56M (later £275M) left idle; turn on steel construction / keep building `[4:08:01][5:19:00]`.
+- **After a big welfare/PM/institution change, wait a month or two for the market to re-equilibrate before diagnosing a profit "crash"** `[4:10:01]`.
+- **Pass Free Trade under a left coalition by swapping one market-liberal industrialist into government** (the protectionist Industrialist IG blocks it otherwise) `[4:12:36][4:26:00]`.
+- **Take Throughput over Prestige on late-game events** `[4:12:01]`; **disable internal "sugar-alternative" PMs** so the sugar company doesn't compete with itself `[4:00:36]`.
+- **Cars become the breakout earner** — Automobiles + Steel Motors company; needs rubber (build it in the Congo) `[4:33:30]`.
+- **Release low-SoL colonies (Congo ~7 SoL) as a colonial nation** to stop them dragging your average SoL; released countries inherit your laws `[4:37:30][5:01:00]`.
+- **Scale the sin/consumer loop hard** — ~400 → ~1,000 rum trade centres; Cuba ends as ~100% of the world's liquor (Bacardi) and #1 sugar exporter; interest rate ~0.5% `[4:40:00][4:41:30]`.
+- **Second Brazil war + Spain regime-change war** — split the army to **defend Havana before any offensive landing**; the **teleport-army trick** (dismiss commanders, disband and rebuild the army at a home front) relocates troops fast; calling in Britain costs a concession (Ireland); a transatlantic landing on Spain mostly fails → take white peace `[4:48:08][4:53:00][4:59:00][5:24:00]`.
+- **#1 Great Power reached incidentally (~1900s)** off navy projection + GDP `[5:02:01]`.
+- **Form the Antillian Confederation (puppets first) in 1921** — though he notes incorporating the subjects was "probably not the best choice" vs leaving them autonomous tax-payers `[5:25:04][5:25:31]`.
+
+**Final state (1921):** #1 Great Power, ~£450M GDP post-confederation, Havana SoL ~30, **Laissez-Faire economy** (never went communist), with cigars (~£188k), sugar (~£238k), Bacardi/groceries (~£500k) and cars (~£1.15M) all hugely profitable per week. He calls the Cuba DLC "a little OP," rates the DLC 7.5/10, and doesn't recommend going communist `[5:26:01][5:27:30]`.
+
 ## Reusable lessons (broadly copyable)
 - **Infrastructure before plantations.** Even a plantation economy opens lumber → tools → iron → railways; plantations come after the infra cap is lifted.
 - **Found a prestige company *before* foreigners buy the buildings**, and grant it a monopoly on investment rights the instant it's founded.
@@ -98,6 +118,12 @@ A "trading in sin" Cuba whose economy is built on the three (later four) Cuban p
 - **Drop taxes once private industry carries you (Laissez-Faire)** — taxes then cost more migration/consumption than they raise.
 - **Use labour-saving PMs when population-constrained**; secure strategic inputs (grain, lead) independently of war-vulnerable subjects.
 - **Convert protectorates to puppets before triggering a nation-formation event.**
+- **You don't have to go communist — Laissez-Faire wins this run.** Appease a powerful Trade-Union/Communist IG with social laws (Right to Associate, Graduated Taxation, Women's Suffrage) but keep your economic system; flipping to a command/cooperative economy can stall your economy.
+- **Don't use labour-saving PMs while pops are unemployed; don't leave the investment pool idle.**
+- **Swap one market-liberal industrialist into government to pass Free Trade under a left coalition.**
+- **After a big PM/institution/welfare change, wait for the market to re-settle before troubleshooting a profit drop.**
+- **Throughput > Prestige on events; release low-SoL colonies to protect your average SoL; cars are the breakout late-game earner.**
+- **Split to defend your capital before offensive naval landings; use the teleport-army trick to relocate troops fast.**
 
 ## Pitfalls (narrated mistakes)
 - Built plantations before the construction backbone — corrected `[0:13:30]`.
@@ -113,6 +139,12 @@ A "trading in sin" Cuba whose economy is built on the three (later four) Cuban p
 - Navy out of position when Brazil declared (speed-5 autopilot) — reloaded `[3:32:31]`.
 - Antilian Confederation formation misfired on protectorates (needs puppets) — reverted `[3:27:03]`.
 - Routed lead through a subject; it was cut when Brazil occupied that subject `[3:33:30]`.
+- Left the navy overseas (Siam) when Brazil attacked — near back-door invasion of Havana; reloaded `[3:32:31]`.
+- Sat on a £56M, then £275M, idle investment pool `[4:08:01][5:19:00]`.
+- Took Prestige over Throughput on a late-game event `[4:12:01]`.
+- Forgot to apply new-tech PMs across all buildings (Efficient Counting Practices; trench infantry) `[4:44:00][5:15:02]`.
+- Kept trying to land in Spain — it never works; take white peace `[5:24:00]`.
+- Incorporating the confederation's subjects was probably worse than leaving them autonomous tax-payers `[5:25:31]`.
 
 ## Caption-quality notes
 Auto-captions garbled the prestige-company names (rendered "Lagranuka"/"Resvikardi"/"Rodríguez" — renamed-after-channel-member companies; referred to generically above) and the journal names ("Levida Dece"/"Kuba Espana"). A few figures and a trade-mandate label are approximate where flagged in the source slices.
