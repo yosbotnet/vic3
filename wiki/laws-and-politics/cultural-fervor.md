@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/07-cultural-fervor.md
+  - ../../notes/comprehensive-tutorial-2025/02-pops.md
 wiki:
   - https://vic3.paradoxwikis.com/Pops
 generated_at: 2026-05-16
@@ -49,6 +50,14 @@ Cultural Fervor (added in 1.10) is a **global, per-Culture** score of national s
 
 **Reading the breakdown tooltip is non-optional.** Foreign country modifiers (the Russian *Organic Statute* example), war casualties from someone else's war that involved your Culture, and tech research abroad all show up only in the per-source breakdown. After any major world event — a great power war, a famous decree, a new tech wave — recheck Fervor on every Culture you care about.
 
+## Related: obsessions & taboos (a separate culture/faith system)
+
+Not to be confused with Fervor — Cultures and faiths also carry **obsessions** (Pops buy *more* of a good, even when it's expensive, to the detriment of their other needs) and **taboos** (Pops rarely buy a good even when it's cheap). These are demand modifiers, not the national-spirit score, but they're worth knowing because they sit on the same Culture/Religion entities you're already tracking for Fervor.
+
+- **Religious obsessions/taboos are fixed for the whole game; cultural ones can change** (2025 comprehensive tutorial, [33:31]).
+- **A big obsession can carry an entire economy.** The Han Chinese opium obsession is large enough to run an economy on — the historical hook for Britain's China opium trade. Decision rule: if a culture in your market has a large obsession, building/importing that good is a guaranteed, price-insensitive demand sink you can profit from (2025 comprehensive tutorial, [33:31]).
+- **Taboos suppress demand** — selling liquor or wine into a Muslim-majority market fails because of the liquor/wine taboo. Decision rule: check obsessions and taboos before planning a consumer-goods or trade economy aimed at a particular culture/faith, or you'll build supply for demand that never materialises (2025 comprehensive tutorial, [33:31]).
+
 ## Common pitfalls
 
 - **Ignoring foreign events.** Polish Fervor can spike from a Russian modifier and shatter Prussian Posen; the only place this appears is the breakdown tooltip.
@@ -75,3 +84,4 @@ Cultural Fervor (added in 1.10) is a **global, per-Culture** score of national s
 ## Sources
 
 - `../../notes/tutorials/07-cultural-fervor.md`
+- `../../notes/comprehensive-tutorial-2025/02-pops.md` — chapter "2. Pops" of "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight" (Tarkusarkusar, 2025-12-16); obsessions and taboos.

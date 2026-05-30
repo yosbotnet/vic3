@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/05-how-to-pass-laws.md
+  - ../../notes/comprehensive-tutorial-2025/03-domestic-politics.md
 wiki:
   - https://vic3.paradoxwikis.com/Laws
 generated_at: 2026-05-16
@@ -34,6 +35,8 @@ Law enactment is the engine that converts your political position into structura
 
 10. **Negotiation — stance shift** — Negotiate with a Neutral in-Government IG to flip them Supporting (their clout adds to Success). Negotiate with an Opposing IG (need not be in Government) to flip them Neutral (their clout no longer adds to Stall). DECISION RULE: negotiation order matters — each completed deal shifts percentages and stacks outstanding promises that lower other IGs' Amenability, so do the cheapest/highest-leverage swaps first.
 
+   **[UPDATE — free patch, Dec 2025]** The negotiation *button* itself shipped in the free patch that accompanied the Iberian Twilight release, just days before the Dec 2025 stream. Clicking it opens the list of IGs you can negotiate with to put their clout behind a law they'd otherwise oppose — but **only IGs with Amenability above 25 appear at all**, and the lower their Amenability the more they demand. Often only one IG is reachable (in the worked laissez-faire example, only the Armed Forces). Decision rule: if the negotiation list is empty or everyone on it demands the world, raise the target IGs' Amenability (Approval, Legitimacy, lighter promise load) before reopening it (2025 comprehensive tutorial, [40:00]).
+
 11. **Amenability bands** — 0–24 refuses entirely; 25–49 costs and effects doubled; 50–74 normal; 75–100 halved. DECISION RULE: target 75+ before committing to expensive Amendments; if an IG is stuck in 25–49 and the demand is steep, negotiate someone else first or skip them.
 
 12. **Negotiation outcomes** — Each negotiation offers 3 commitment options plus a back-out. Amendments are permanent passive effects on the law for as long as it's active. Journal-Entry promises are time-bound build/policy commitments (e.g., build X levels of Y in 10 years). Backing out costs Amenability and Approval. DECISION RULE: take Amendments whenever offered — they're permanent. Only accept Journal promises that match what you were going to build anyway.
@@ -43,6 +46,12 @@ Law enactment is the engine that converts your political position into structura
 14. **Cabinet composition affects Success, not Stall.** Only IGs in the cabinet count clout toward enactment Success chance. Opposing IGs count toward Stall whether or not they're in cabinet. Swap a supporting IG into government to flip a 0% chance to ~20% — opposition from outside government stays the same. `[from beginner-tutorial ep02]`
 
 15. **Setback vs chance-loss tradeoff:** when an enactment event offers "take −X% chance" vs "take a Setback," prefer the Setback. You have 3 (or 4 with Creative Legislature) Setback budget; chance reductions multiply failure odds across all remaining monthly checkpoints. `[from beginner-tutorial ep03]`
+
+16. **Phase names are cosmetic; the rolls are what matter.** The named steps vary by Distribution of Power — Burgundy runs Introduction→Consideration→Adoption, US tenant-farmer laws run Sponsorship→Study→Voting — but there is no functional difference between any naming scheme; ignore the labels and read the underlying Success/Stall/Advance/Debate rolls (2025 comprehensive tutorial, [39:02]).
+
+17. **Read the law box's two mouseover sub-rolls.** Hovering the law-passing box splits the roll into a **debate** band and an **advance** band. Debate events are good, bad, or demand a sacrifice (trade something for Success chance); advance events do *not* push to the next phase but grant either a bonus to Success or a flat national benefit. Decision rule: the box's mouseover is the only place to see whether the next event is likely to help, hurt, or ask for a trade — check it before deciding whether to sit on a law or cancel it (2025 comprehensive tutorial, [39:30]).
+
+18. **Leader ideology (blue) supersedes the IG's inherent ideology (red).** An IG's red ideologies are baked in and never change; its current leader contributes a blue ideology that overrides the red ones while that leader is in charge. A *reformer* Church leader, for example, flips the Church to **support** Women's Rights even though the Church's baseline ideology is patriarchal. Decision rule: don't judge an IG's law stances from its IG type alone — open it and read the leader; a single favourable leader can convert a structural opponent into a supporter (and a leader's death re-rolls this) (2025 comprehensive tutorial, [37:01]).
 
 ## Game numbers & rules of thumb
 
@@ -98,3 +107,4 @@ Law enactment is the engine that converts your political position into structura
 ## Sources
 
 - `notes/tutorials/05-how-to-pass-laws.md` (transcript of "How to Pass Laws in Update 1.12 - Victoria 3", 39:05).
+- `notes/comprehensive-tutorial-2025/03-domestic-politics.md` (chapter "3. Domestic Politics" of "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight", Tarkusarkusar, 2025-12-16).

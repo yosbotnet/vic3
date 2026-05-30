@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/17-war-transvaal-naval-invades-the-british-mainland.md
+  - ../../notes/comprehensive-tutorial-2025/05-war.md
 wiki:
   - https://vic3.paradoxwikis.com/Warfare
 generated_at: 2026-05-16
@@ -50,6 +51,16 @@ Once combat begins, the player's levers are: which Fronts to weight with manpowe
 
 17. **Battle deployment infrastructure cap.** Even after a successful landing, the first battle deploys fewer battalions than the army size if the target state's infrastructure is low. The deployment cap appears to scale with infrastructure. `[from beginner-tutorial ep07]`
 
+18. **Primary vs secondary Wargoals, and the "make primary" button** [UPDATE] — A Play's **primary** Wargoal (the one it started with) is always enforced; **secondary** Wargoals you add are enforced *only if you actually win*. If the other side backs down during the 100-day buildup, they concede only your **primary** goal — not the secondaries. A recent-patch **"make primary"** button converts a secondary into a primary so it is *also* enforced on a back-down. *Decision rule:* put the goal you most want as primary (or promote it), and treat secondaries as upside you collect only on a full military win — they are also your leverage in the game-of-chicken buildup. (2025 comprehensive tutorial, [1:08:30])
+
+19. **Capitulation desire is an AI-only stat — even an ally can bail mid-victory** — Each AI participant has a hidden *capitulation desire* derived largely from war support; at zero, that nation leaves the war regardless of the battlefield. This applies to your **allies** too: a swayed ally whose war support collapses can quit *while you are winning*, costing you the war (in the demo, Prussia bailed and the war was lost). *Decision rule:* don't lean on a swayed ally as your decisive force — keep enough of your own Army to finish the war if they walk, and watch allied war support, not just the front lines. (2025 comprehensive tutorial, [1:16:30])
+
+20. **The forever-war problem — wars are all-or-nothing** — You can only push the enemy to surrender by occupying **all** the states tied to your Wargoals *or* their capital; the AI will not accept a partial or mixed deal (it shows roughly **−1,000 reason to accept**). Demand land you cannot physically take and the war simply never ends. *Decision rule:* never add a Wargoal whose states you can't occupy — match your demands to your reach, or accept an unwinnable, unloseable stalemate. (2025 comprehensive tutorial, [1:18:02])
+
+21. **Naval Invasion efficiency penalty and multi-invasion defending** [UPDATE] — Landing an Army larger than the invading Navy's ship count inflicts a **−66% invasion efficiency** penalty to all offence and defence — far harsher than just "below 100%." On defence, a recent update lets a **single** Army sitting in the HQ defend against *multiple* planned enemy invasions instead of needing one Army per invasion (the behaviour is janky and sometimes fails). Cheese: spamming many small random Naval Invasions can make the AI pull its Army off the front to chase them. *Decision rule:* keep landing Battalions ≤ ships to dodge the −66%; on defence, one Defend Army per coastal HQ now covers several threatened landings; and against the AI, use scattered fake invasions to thin a strong front. (2025 comprehensive tutorial, [1:53:30] / [1:54:00])
+
+22. **Conquest transfers all buildings owned *from* a state — including non-local holdings** — Taking a state hands you ownership of every building its pops/financial districts own, even ones located in *other* countries. Conquering Britain's home counties (its financial districts) seizes the businesses they owned "as far as Canada," redirecting that profit to your capitalists. *Decision rule:* prize enemy *financial-district* states as Wargoals — capturing the owner captures its whole portfolio, and depriving a rival of that portfolio is often worth more than the land itself. (2025 comprehensive tutorial, [1:12:01])
+
 ## Game numbers & rules of thumb
 
 Generalisable values from the demonstration scenario `[from 17-war-transvaal-naval-invades-the-british-mainland]`:
@@ -61,6 +72,8 @@ Generalisable values from the demonstration scenario `[from 17-war-transvaal-nav
 - Naval orders are stackable: assign multiple commanders to a single Navy and run **Intercept + Raid + Escort** in parallel.
 - Default penalty (hitting your debt limit during war): **−5% army offense and defense**, and your construction queue pauses.
 - The free preparation window is **Play-start to first unpause** — use it fully for mobilization, Generals, and Navy orders.
+- Over-sized Naval Invasion (landed Battalions > invading Navy's ships): **−66% invasion efficiency** to all offence/defence (2025 comprehensive tutorial, [1:53:30]).
+- AI accept-value when you demand states you don't occupy: roughly **−1,000 reason to accept** — the war cannot be ended on those terms (2025 comprehensive tutorial, [1:18:02]).
 
 ## Strategy & playbook
 
@@ -106,4 +119,5 @@ Generalisable values from the demonstration scenario `[from 17-war-transvaal-nav
 ## Sources
 
 - `notes/tutorials/17-war-transvaal-naval-invades-the-british-mainland.md`
+- `../../notes/comprehensive-tutorial-2025/05-war.md` — The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight, by Tarkusarkusar, 2025-12-16 (chapter 5, War).
 - [Warfare — Paradox Wiki](https://vic3.paradoxwikis.com/Warfare)

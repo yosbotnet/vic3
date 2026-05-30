@@ -8,6 +8,8 @@ sources:
   - ../../transcripts/beginner-tutorial/ep14.md
   - ../../transcripts/beginner-tutorial/ep15.md
   - ../../transcripts/beginner-tutorial/ep16.md
+  - ../../notes/comprehensive-tutorial-2025/04-diplomacy.md
+  - ../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md
 wiki:
   - https://vic3.paradoxwikis.com/Colonization
 generated_at: 2026-05-16
@@ -35,6 +37,10 @@ Success looks like: a non-malaria coastal foothold acquired before Britain or Fr
 12. **Privatisation toggles after conquest** — conquered buildings are not auto-flagged for privatisation. Manually re-tick the privatisation checkbox on each colonial Plantation, Mine, Logging Camp, and Tooling Workshop so the local Aristocrats / Capitalists take the dividends (and the Investment Pool builds upgrades) (`[ep13]`). *Decision rule:* sweep the colony's building list once and toggle privatisation on everything that isn't an Arms Industry or a military building.
 13. **Tension / Native uprisings** — Colonial Exploitation accumulates state Tension over time; high enough Tension can trigger native revolts. The Economic outliner's colony view shows current Tension (`[ep15]`). *Decision rule:* keep an eye on Tension on long-held Exploitation colonies; Violent Suppression edict trims it but it's not a permanent fix.
 14. **Race blocking** — once a Great Power begins colonising a state, the rest of that state is locked to them; in practice this means a coloniser race spreads outward from each player's foothold. Britain colonising South Cameroon next to Sweden's Cameroon foothold blocks Sweden out of half the region (`[ep16]`). *Decision rule:* plant a flag in every contiguous state you might ever want, even slowly — a level-1 colonisation tick is enough to claim the state and lock everyone else out.
+15. **Interest slots by rank, with navy as the lever** — the hard cap on simultaneous Strategic-Region Interests scales with rank: **Major Power = 3 max, Great Power = 6**; technology contributes, but the primary lever to generate more slots is a **bigger navy** (Navy Power Projection grants Interest capacity) (2025 comprehensive tutorial, [54:30]). *Decision rule:* if you're slot-starved for the colony race, the fastest fix is shipbuilding and naval tech, not just pushing rank — and it doubles as the convoy/marine capacity you'll need to reach overseas colonies anyway.
+16. **Interest UI and activation delay** — when placing Interests the map colour-codes regions: **blue** = an active Interest you already hold (clickable to remove), **green** = a region you may place an Interest in, **orange** = a permanent/automatic Interest (your home region, where you always have one). A newly-placed Interest **takes time to activate** before it gates anything, and without an active Interest you cannot draft treaties with, colonise, or declare war in that region (2025 comprehensive tutorial, [53:30]). *Decision rule:* place the Interest a few weeks *before* you intend to act — an Interest declared the same week you want to colonise or attack isn't usable yet.
+17. **Fresh-conquest turmoil and the violent-treatment decree** — a just-conquered colonial state carries very high turmoil (radicalism) that cripples construction efficiency. The **violent-treatment ("chop hands") decree** trades pop mortality for a reduced turmoil penalty, so construction runs less inefficiently while standard of living slowly recovers via market access (2025 comprehensive tutorial, [1:57:01]). *Decision rule:* on a freshly taken extractive colony you intend to build out fast, the violent-treatment decree buys construction throughput at a demographic cost — a short-term lever, not a permanent setting. See the [Belgium conquer-colonize case study](../case-studies/belgium-conquer-colonize-react.md).
+18. **Incorporation cost scales with cultural distance** — incorporating a conquered state costs Bureaucracy and **time** scaled by cultural distance: a same-language state incorporates in roughly **27 months**, but a wrong-culture homeland (sharing no heritage or language) can take **~22 years** — a fifth of the game. You cannot tax an unincorporated state, but its collapsed wages make plantation profit explosive (2025 comprehensive tutorial, [1:46:31], [1:55:00]). *Decision rule:* incorporate close-culture conquests (cheap, fast, taxable); farm distant wrong-culture colonies **unincorporated** — the 22-year incorporation timer is never worth surrendering the collapsed-wage plantation margins. See the [Belgium conquer-colonize case study](../case-studies/belgium-conquer-colonize-react.md).
 
 ## Game numbers & rules of thumb
 - **Severe malaria penalty:** ~−95% Colonisation Speed without Quinine `[ep13]`, `[ep15]`
@@ -48,6 +54,8 @@ Success looks like: a non-malaria coastal foothold acquired before Britain or Fr
 - **Quinine prerequisite chain:** Pharmaceuticals → Quinine (Society tier) `[ep12]`, `[ep15]`
 - **Gold mine value at colony scale:** Sweden's first Brunei gold mine yielded ~1,500 Minting income at base PM; scaled to ~3,000–4,500 Minting once the mine was upgraded a level under the +20% Exploitation and +30% combined modifier stack `[ep13]`, `[ep14]`
 - **Strategic Region interest cost:** declaring Interest in a new region uses an Interest slot; slot count rises with Colonial Affairs level and country rank `[ep15]`
+- **Interest slot caps by rank:** Major Power = **3 max**, Great Power = **6**; Navy Power Projection is the primary lever to raise the cap, with technology contributing (2025 comprehensive tutorial, [54:30])
+- **Incorporation time by cultural distance:** same-language state ≈ **27 months**; wrong-culture homeland ≈ **22 years** (no shared heritage/language). Unincorporated states can't be taxed but pay collapsed plantation wages (2025 comprehensive tutorial, [1:46:31], [1:55:00])
 - **Co-locating Interest with Power Bloc Leverage:** an active Interest in a Strategic Region grants +100 Leverage Factor toward countries in that region (see `power-blocs.md`) — colonial Interests do double duty `[ep15]`
 
 ## Strategy & playbook
@@ -97,6 +105,7 @@ Success looks like: a non-malaria coastal foothold acquired before Britain or Fr
   - [Small Nation Play](small-nation-play.md) — flip side: surviving great-power colonial Interests in your own region.
   - [War and Naval Invasions](../military/war-and-naval-invasions.md) — many colonies arrive via Make-Subject diplo play + marine naval invasion, not via slow colonisation.
   - [Japan: Phase 5 Expansion](../case-studies/japan-great-wave/phase-5-expansion.md) — the Bornean protectorate chain (Brunei, Sulu, Lanfang, Bulongan) and the "failed to protect" truce-window loss.
+  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — the Congo left unincorporated for collapsed-wage plantation profit, the violent-treatment decree on a fresh conquest, and malaria-prevention tech gating equatorial colonisation.
 - **Official wiki:**
   - [Colonization](https://vic3.paradoxwikis.com/Colonization)
   - [Decentralized power](https://vic3.paradoxwikis.com/Decentralized_power)
@@ -112,3 +121,5 @@ Success looks like: a non-malaria coastal foothold acquired before Britain or Fr
 - `../../notes/great-wave-japan/ep14.md`
 - `../../notes/great-wave-japan/ep16.md`
 - `../../notes/great-wave-japan/ep17.md`
+- `../../notes/comprehensive-tutorial-2025/04-diplomacy.md` — "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight" by Tarkusarkusar, 2025-12-16, ch. 4 Diplomacy (Interest slots, colour coding, activation delay).
+- `../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md` — same video, Belgium synthesis (incorporation cost by cultural distance, violent-treatment decree).

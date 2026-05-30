@@ -6,7 +6,7 @@ Personal Victoria 3 knowledge base — YouTube tutorials and a campaign playthro
 
 ## Layout
 
-- `transcripts/` — raw YouTube captions (38 videos)
+- `transcripts/` — raw YouTube captions (39 videos)
 - `notes/` — per-video study notes
 - `wiki/` — synthesized topic-organized strategy wiki (the published site)
 - `scripts/` — fetch & convert tooling
@@ -15,7 +15,8 @@ Personal Victoria 3 knowledge base — YouTube tutorials and a campaign playthro
 ## Sources
 
 - Tutorials: [Generalist Gaming Victoria 3 Tutorials](https://www.youtube.com/playlist?list=PL1QPWs6KwuOCu0dfHoKgsySV3xE_eQ9Z8)
-- Campaign: [Victoria 3: Japan Becomes a Superpower! | The Great Wave](https://www.youtube.com/playlist?list=PLsT4scrqjQbTSBvfQQBpMnGQzcwkteRvp)
+- Comprehensive tutorial: [The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight](https://www.youtube.com/watch?v=P_PzglCFo9I) by Tarkusarkusar
+- Campaigns: [Victoria 3: Japan Becomes a Superpower! | The Great Wave](https://www.youtube.com/playlist?list=PLsT4scrqjQbTSBvfQQBpMnGQzcwkteRvp); [Restoring the Spanish Empire as Cuba](https://www.youtube.com/watch?v=rKZwT9G7Dq8)
 
 ## Build locally
 

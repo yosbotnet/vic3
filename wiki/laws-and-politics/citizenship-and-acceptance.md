@@ -2,6 +2,7 @@
 sources:
   - ../../notes/tutorials/06-subjecthood-and-citizenship-laws.md
   - ../../notes/tutorials/10-acceptance-assimilation-and-conversion.md
+  - ../../notes/comprehensive-tutorial-2025/02-pops.md
 wiki:
   - https://vic3.paradoxwikis.com/Laws
 generated_at: 2026-05-16
@@ -31,6 +32,8 @@ Patch 1.10 reshaped this layer: Acceptance is now computed from heritage traits,
 14. **Support Separatism cuts both ways** — Unlocked by Nationalism tech, it raises activism in a rival's minority movement matching your primary culture. Nationalist Citizenship Laws boost your offensive strength but slash your Resistance, leaving your own minorities exposed `[from 06-subjecthood-and-citizenship-laws]`.
 15. **Cultural Fervor from laws is fractional** — The Fervor bonus is multiplied by the share of your primary culture's worldwide Pops living in your country, and only applies if you're independent. Decision rule: check domestic vs. worldwide Pop counts before banking on the full +20 from Ethnostate `[from 06-subjecthood-and-citizenship-laws]`.
 16. **Spot the icons** — A small icon next to a Pop's religion (converting) or culture (assimilating) means the process is active; hover for monthly flow. Use it to verify acceptance changes are actually moving Pops `[from 10-acceptance-assimilation-and-conversion]`.
+17. **Acceptance gates immigration, not just hiring** — Acceptance is also the bouncer on inbound migration. Migration has three gates: (a) a **cultural community** of the migrant's culture must already exist somewhere in your **market** (a community is ≥1 Pop of that culture, and they spawn into your states completely randomly if your culture is present in the market), (b) the migrant must already be **in your market**, and (c) **mass** migration additionally requires the destination give that culture **Acceptance ≥ 30**. Decision rule: a restrictive nationalist Citizenship Law that drops a foreign culture below 30 Acceptance doesn't just hurt hiring — it switches off mass migration of that culture entirely (a European nation under National Supremacy will never receive Chinese mass migrations), so weigh immigration goals against your Citizenship Law choice (2025 comprehensive tutorial, [30:31] / [33:00]).
+18. **Immigration attraction is mostly unused arable land** — Mass-migration attraction is driven heavily by available jobs, dominated by **unused arable land** (room for new farms/plantations); this is why the USA is typically the #1 migration target. The **Greener Grass Campaign** decree raises immigration attraction — but decrees cost Authority, which your laws generate, so it competes with every other decree. Decision rule: if you want to *win* the migration tug-of-war (not just clear the Acceptance ≥ 30 gate), you need both job-room and attraction — pairing open arable land with the Greener Grass Campaign decree, while keeping the target cultures above 30 Acceptance (2025 comprehensive tutorial, [32:00] / [34:30]).
 
 ## Game numbers & rules of thumb
 - Acceptance bands: 0–19 / 20–39 / 40–59 / 60–79 / 80–100 `[from 10-acceptance-assimilation-and-conversion]`.
@@ -46,6 +49,9 @@ Patch 1.10 reshaped this layer: Acceptance is now computed from heritage traits,
 - Religious Schools institution: +20% conversion per level `[from 10-acceptance-assimilation-and-conversion]`.
 - Cultural Fervor scaling: Law value × (your domestic primary-culture Pops ÷ worldwide primary-culture Pops); independence required `[from 06-subjecthood-and-citizenship-laws]`.
 - Multiculturalism requires tier-3 Human Rights tech; Cultural Exclusion is the highest law obtainable without tech (no slavery) `[from 10-acceptance-assimilation-and-conversion]`.
+- Mass-migration Acceptance gate: a culture needs **Acceptance ≥ 30** at the destination to send mass migrations there (2025 comprehensive tutorial, [33:00]).
+- Migration also requires a cultural community (≥1 Pop of the culture, spawns randomly) in your market and the migrant already being in your market (2025 comprehensive tutorial, [30:31]).
+- Greener Grass Campaign decree raises immigration attraction (costs Authority, which laws generate) (2025 comprehensive tutorial, [34:30]).
 
 ## Strategy & playbook
 
@@ -87,3 +93,4 @@ Patch 1.10 reshaped this layer: Acceptance is now computed from heritage traits,
 ## Sources
 - `notes/tutorials/06-subjecthood-and-citizenship-laws.md` — Subjecthood and Citizenship Laws (1.10+)
 - `notes/tutorials/10-acceptance-assimilation-and-conversion.md` — Acceptance, Assimilation, and Conversion
+- `notes/comprehensive-tutorial-2025/02-pops.md` — chapter "2. Pops" of "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight" (Tarkusarkusar, 2025-12-16); migration gates and the Acceptance ≥ 30 mass-migration threshold.

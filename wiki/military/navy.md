@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/18-military-navy.md
+  - ../../notes/comprehensive-tutorial-2025/05-war.md
 wiki:
   - https://vic3.paradoxwikis.com/Naval_warfare
 generated_at: 2026-05-16
@@ -37,6 +38,8 @@ The Navy in Victoria 3 is primarily a **logistics arm**, not a battlefleet. Its 
 
 12. **Navy -> Power Projection -> Prestige -> debt cost** — Each Flotilla contributes more Power Projection (and thus Prestige) than a battalion does on the army side. Higher Prestige raises **Rank**, which lowers your **interest rate** on Treasury debt. *Decision rule:* count a chunk of Navy upkeep as debt-service reduction, not pure military spend.
 
+13. **A Navy's ship count is your Naval Invasion capacity** — You can land at most as many regiments as the invading Navy has ships (6 ships → 6 regiments); exceeding it incurs a heavy invasion-efficiency penalty (see [War & Naval Invasions](war-and-naval-invasions.md)). *Decision rule:* purpose-build a transport Navy sized to the landing you intend — a small, cheap Navy is enough to seize a lightly defended coast. The [Belgium case study](../case-studies/belgium-conquer-colonize-react.md) takes the Congo with a six-ship landing of six regiments. (2025 comprehensive tutorial, [1:50:00])
+
 ## Game numbers & rules of thumb
 - Commodore (lowest naval rank) caps at 20 Flotillas; Grand Admiral (highest) caps at 100 `[from 18-military-navy]`.
 - No naval conscripts — Navy Manpower comes only from Naval Base employment `[from 18-military-navy]`.
@@ -47,6 +50,7 @@ The Navy in Victoria 3 is primarily a **logistics arm**, not a battlefleet. Its 
 - Dockland-style state modifier: +15% Shipyard throughput, +15 max Flotillas in that state `[from 18-military-navy]`.
 - Convoy supply cost: `battalions x 10 x (1 + 0.1 x (sea_nodes - 1)) x commander_efficiency` `[from 18-military-navy]`.
 - Naval pathing picks the route with the **fewest** Sea Nodes — allied transit can dramatically shorten supply lines `[from 18-military-navy]`.
+- Naval Invasion capacity: at most one regiment landed per ship in the invading Navy (e.g. 6 ships → 6 regiments) (2025 comprehensive tutorial, [1:50:00]).
 
 ## Strategy & playbook
 
@@ -85,3 +89,4 @@ The Navy in Victoria 3 is primarily a **logistics arm**, not a battlefleet. Its 
 
 ## Sources
 - `notes/tutorials/18-military-navy.md` — Victoria 3 Military Tutorial Part Two: Navy in 2025 (26:41 runtime).
+- `../../notes/comprehensive-tutorial-2025/05-war.md` — The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight, by Tarkusarkusar, 2025-12-16 (chapter 5, War).

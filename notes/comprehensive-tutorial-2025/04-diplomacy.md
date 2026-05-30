@@ -1,0 +1,62 @@
+---
+source_transcript: ../../transcripts/comprehensive-tutorial-2025/01-iberian-twilight.md
+source_video: https://www.youtube.com/watch?v=P_PzglCFo9I
+section: "4. Diplomacy (45:14–59:30)"
+generated_at: 2026-05-30
+---
+
+# Diplomacy — Comprehensive Tutorial 2025 (Tarkusarkusar)
+**Source:** [The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight](https://www.youtube.com/watch?v=P_PzglCFo9I) by Tarkusarkusar, 2025-12-16 — chapter "4. Diplomacy" [45:14].
+
+## Summary
+Diplomacy in Victoria 3 is described as a lighter mechanic than it appears: in isolation it does little, and its real importance is how tightly it is tied to war — most things you can do via war you can instead do via diplomacy, and the point of diplomacy is to get what you want *without* war [46:01]. The chapter walks through how to read and predict the AI (attitude vs. relations vs. behaviors), then the toolkit: treaties, power blocs, interests, influence/rivals, and subjects. Key framing: relations are nearly cosmetic — only **attitude** matters for how a nation acts toward you — and your capacity to *do* diplomacy is gated by **influence**, which you mainly generate by declaring **rivals**, which itself worsens relations and makes diplomacy harder. So you must ration how much diplomacy you engage in [59:02].
+
+Co-host Lemon Cake makes a substantive point at the start: Victoria 3's diplomacy quality depends entirely on whether you count the **recently-expanded DLC diplomacy** (which is more warfare/peace-deal based) as "diplomacy." Excluding it, he thinks diplomacy is "quite lacking compared to other paradox titles"; including it, it's "one of the better games for diplomacy" [45:32]–[46:01]. *(Flag: DLC mechanic. The recent diplomacy expansion he refers to is treated by the devs as diplomacy rather than warfare/peace deals.)*
+
+## Core mechanics  (numbered; each key claim with a real [mm:ss])
+1. **War and diplomacy are tightly coupled.** Most of what you can achieve with war you can instead achieve with diplomacy; diplomacy's purpose is getting what you want without war (war can be bad — or good — "depending on the market," expanded in the war section) [46:01].
+2. **Relations ≠ attitude — only attitude matters.** Relations are like CK3 "opinion" (a relationship score); **attitude** is more like the country's personality/disposition toward you (e.g. protective, antagonistic, weary, cooperative, amicable). The relationship value "doesn't actually mean anything — all that matters is the attitude" [46:30]–[47:30].
+3. **Attitude can contradict relations.** Example given: the Ottomans (neutral relations) are **weary**, while Sweden (identical neutral relations) is **cooperative** / views the player as a "natural ally." Tarkus stresses the underlying attitude score is "arcane" — there's no clear way to see where it comes from [47:30]–[48:00].
+4. **AI behaviors are the second predictor.** Each nation has behaviors (likened to CK3 character traits) such as "expand industries," "enact [land] reforms," "economic imperialism." They let you *somewhat* predict AI actions — e.g. a nation with the natural-resource-investment behavior will invest in natural resources; Britain with **economic imperialism** wants subjects to expand its market but stays diplomatic toward markets it can't subjugate [48:30]–[49:30].
+5. **Behaviors are mostly "a vibe."** Some tooltips surface modifiers from behaviors, but for the most part you only learn what a behavior pushes the AI toward by playing enough; reading the descriptions gives educated guesses, "better than nothing" [49:00]–[49:30].
+6. **Treaties** are the main interactive diplomacy mechanic. You draft a treaty with a country and can request/offer: alliances, law changes, goods (money transfer of goods), trade privileges, monopolies, etc. The AI is "easily swayed" — e.g. by the "false gold" of promising not to charge tariffs [50:00]–[50:31]. The trade system is "solid" but feels limited; many treaty options "are never going to happen" because the AI rarely trades states, almost never grants monopolies, and is easily manipulated — a fault of the AI, not the mechanic [52:00]–[52:30].
+7. **Goods/money transfer via treaty.** You can simply ask a country for goods (example: ask Britain for 300 clothes) and they may give it for nothing, or you negotiate (e.g. clothes in exchange for a trade-center monopoly) [50:31]–[51:31].
+8. **Trade is autonomous.** You build trade centers (click the pluses) but you do **not** control which goods flow in/out — the market decides based on prices [51:00]–[51:31].
+9. **Alliance limit.** You can hold **only one alliance at a time**, but **as many defensive pacts as you want**. You can't ally a nation that already has an alliance (Britain was unavailable because already allied to the Ottomans) [51:31]–[52:00].
+10. **Treaty binding period.** A treaty has a binding period during which it must be upheld but *can* still be broken; the breaker takes a hit to diplomatic reputation map-wide and severely harms relations with that nation, scaled by how much binding period remained when broken [52:00]–[52:30].
+11. **Power blocs** are a separate mechanic. A power bloc is a collection of countries aligned along an axis. Types named: **trade leagues, military alliances, religious convocations, cultural unions, ideological unions, and sovereign empires**, each with different bonuses [52:30]–[53:01]. The leader works to expand influence to pull nations in; more members = more bonuses; a strong bloc can implement **mandates** giving bonuses to leader and members. Members can struggle for control via competing **prestige** numbers [53:01]. You can fully customize a bloc (name, color, statue, coat of arms) [53:01]–[53:30].
+12. **Interests** gate who you can interact with. Color coding when declaring interests: **blue** = already have an interest (clickable to remove), **green** = can place an interest there, **orange** = permanent/automatic interest (e.g. your home region — you always have an interest where you exist) [53:30]–[54:00]. Without an interest in a region you can't draft treaties with or attack its nations; an interest takes "a little while to activate" before it's usable [54:00]–[54:30].
+13. **Generating interest slots.** Two main levers: a **bigger navy** (navy power projection grants interest slots), and **rank** — minor power has fewer, "major power" gives 3 max, "great power" gives 6. Technology also contributes. Tarkus admits he can't reliably find the tooltip showing the navy contribution [54:30]–[55:30]. *(Note: he initially says great power gives "like four," then corrects to six [55:00].)*
+14. **Influence** is the resource that pays for ongoing treaties. Example: a trade-privilege treaty with Britain costs the player **90 influence** to maintain and costs Britain **75** [55:30].
+15. **Rivals generate influence.** To get more influence you declare **rivalries** via the diplomatic lens → diplomatic actions; each rival grants influence (example costs to rival: Portugal 400, Two Sicilies) [55:30]–[56:01]. Rivaling worsens attitude/relations (relations drift toward −20); if the other nation rivals you back, their attitude becomes antagonistic [56:01]–[56:31].
+16. **Subjects** (protectorate/puppet/dominion/colony types) are subordinate nations. Core value: a subject **rules states for you and pays you money** (amount depends on subject type) without you spending bureaucracy [56:31]–[57:31].
+17. **Incorporation vs. subjects.** To *tax* a state yourself you must **incorporate** it, which costs **bureaucracy** (an expensive resource at times). A subject lets you control land without spending bureaucracy to administrate it — at the cost of not being able to fully exploit that region's GDP/market because the subject taxes it [57:31].
+18. **Liberty desire.** Subjects have liberty desire (whether they want freedom), driven by your economy, army power, etc. Managing subjects costs influence; Britain (used as the demo) was in an **influence deficit** from over-investing in subject management [56:31]–[57:00]. Tarkus deliberately keeps this shallow — most new players won't play subject-heavy nations like Britain [56:31]–[57:00].
+19. **Subjects feed power blocs.** Subjects are automatically counted as power-bloc members, so you can grow your bloc by acquiring subjects [57:31]–[58:00].
+20. **Infamy ↔ subjects ↔ independence wars.** High **infamy** (covered in the war section) gives your subjects much more **liberty desire**; high-liberty subjects seek out other nations to support their independence. If unchecked, a subject can gain several great powers' backing and declare war on you with a large chain of alliances "seemingly from nowhere" [58:00]–[58:31].
+
+## Numbers & formulas  (with [mm:ss])
+- **Relations thresholds:** relations only matter at thresholds — positive modifiers to attitude/diplomacy unlock at **0, 20, 50, 80**; being at 70 ≡ being at 51, being at 5 ≡ being at 0. Negative thresholds are **−20, −50, −80** [50:00].
+- **Alliance limit:** 1 alliance max; unlimited defensive pacts [51:31]–[52:00].
+- **Interest slots by rank:** major power = **3 max**, great power = **6** (Tarkus first misspeaks "four," then corrects to six) [54:30]–[55:00].
+- **Influence cost example:** trade privilege with Britain = **90 influence** for the player / **75** for Britain [55:30].
+- **Rival costs (examples):** Portugal **400 influence**; Two Sicilies (cost not stated) [55:30]–[56:01].
+- **Goods request example:** ask Britain for **300 clothes** [51:00]–[51:31].
+- **Rivalry relations drift:** declaring a rivalry pushes relations toward **−20** [56:01]–[56:31].
+
+## Common pitfalls
+- **Watching relations instead of attitude.** Relations are nearly cosmetic; read the *attitude* (and its underlying score) to predict whether a nation will help or hurt you [47:01]–[47:30].
+- **Trusting the diplomacy toolkit's breadth.** Many treaty options (trading states, monopolies) almost never happen because the AI refuses — don't plan around them [52:00]–[52:30].
+- **Over-spending influence.** Influence is finite and every maintained treaty drains it; you can go into an influence deficit (as Britain did) by signing too much [55:30], [56:31]–[57:00].
+- **Declaring too many rivals.** Rivals are your main influence source but each one harms attitude/relations and invites being rivaled back, making *future* diplomacy harder — a self-limiting loop [56:01]–[56:31], [59:02].
+- **Ignoring subject liberty desire while accruing infamy.** High infamy supercharges subject liberty desire; a neglected subject can suddenly muster great-power backing and start a multi-alliance war against you "from nowhere" [58:00]–[58:31].
+- **Forgetting you need an interest before acting.** No interest in a region = can't draft treaties or declare war there; interests also take time to activate [54:00]–[54:30].
+
+## Reusable lessons / decision rules
+- **Read attitude + behaviors, ignore the relations number** (except as it crosses thresholds). Attitude tells you how a nation feels; behaviors tell you what it's trying to do (e.g. economic imperialism → wants subjects/markets) [48:30]–[49:30].
+- **Treat relations as a threshold ladder, not a continuum.** Only pushing past 0/20/50/80 (or −20/−50/−80) changes anything; don't waste effort on intermediate gains [50:00].
+- **Spend your single alliance slot deliberately; stack defensive pacts freely.** Only one alliance exists at a time and you can't ally an already-allied AI [51:31]–[52:00].
+- **Budget influence before signing treaties; ration rivalries.** Each treaty and rival has an ongoing/one-time influence cost, and rivals (your main influence faucet) also poison relations — engage in only as much diplomacy as your influence and tolerance for new enemies allow [55:30]–[56:01], [59:02].
+- **Use interests + navy/rank as the gate for expansion targets.** Grow navy and national rank to unlock more interest slots, then declare an interest in a region *before* you intend to treaty or attack there [54:00]–[55:30].
+- **Prefer subjects when you want a region's land/income but not its administrative cost.** A subject pays you money and counts toward your power bloc without costing bureaucracy — accept that you trade away the region's full GDP/market potential [57:31]–[58:00].
+- **Keep infamy low if you hold subjects.** Infamy inflates subject liberty desire and can trigger a foreign-backed independence war with a surprise alliance chain [58:00]–[58:31].

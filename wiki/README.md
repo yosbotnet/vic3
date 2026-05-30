@@ -9,6 +9,7 @@ A topic-organized strategy reference distilled from YouTube tutorials, focused o
 
 ## Learning path (suggested order for a new player)
 
+0. **[Choosing a Goal & Playstyles](strategy/choosing-a-goal.md)** — Victoria 3 has no win screen; decide what you're optimising *toward* before anything else.
 1. **[Standard of Living, Wages, and Wealth](pops/standard-of-living.md)** — the metric the rest of the game serves.
 2. **[Construction](economy/construction.md)** — the single most important system; you spend most of the game managing the construction queue.
 3. **[Building Balance Sheet](economy/building-balance-sheet.md)** — how to read what your buildings are actually doing.
@@ -24,6 +25,9 @@ A topic-organized strategy reference distilled from YouTube tutorials, focused o
 After the path, mix and match by need.
 
 ## Index
+
+### Strategy
+- [Choosing a Goal & Playstyles](strategy/choosing-a-goal.md) — win conditions, the "everything hinges on the economy" thesis, and which pages each goal needs
 
 ### Pops
 - [Standard of Living, Wages, and Wealth](pops/standard-of-living.md)
@@ -65,9 +69,13 @@ After the path, mix and match by need.
   - [Phase 4 — Economy under stress, Korea aborted](case-studies/japan-great-wave/phase-4-economic-stress.md)
   - [Phase 5 — Power-bloc expansion and unraveling](case-studies/japan-great-wave/phase-5-expansion.md)
 - [Restoring the Spanish Empire (Cuba)](case-studies/cuba-spanish-restoration.md) — single-video showcase: plantation economy, Dominion war, reconquista, the Britain wall, coffee colonialism, Council Republic.
+- [Belgium — Conquer, Colonize, Reaction](case-studies/belgium-conquer-colonize-react.md) — applied synthesis from the 2025 comprehensive tutorial: subject-market war trick, unincorporated Congo plantations, and forcing an absolute monarchy onto a liberal country (the hard goal that fights back).
 
 ## Sources
 
 Every page links to the source video(s) it was distilled from. The full transcripts live in `../transcripts/`, the per-video study notes in `../notes/`. Pages on this wiki are second-order synthesis built from the notes; if a page contradicts a note, the note (and transcript timestamp) wins.
 
-Tutorial source: [Generalist Gaming Victoria 3 Tutorials](https://www.youtube.com/playlist?list=PL1QPWs6KwuOCu0dfHoKgsySV3xE_eQ9Z8).
+Tutorial sources:
+
+- [Generalist Gaming Victoria 3 Tutorials](https://www.youtube.com/playlist?list=PL1QPWs6KwuOCu0dfHoKgsySV3xE_eQ9Z8) — the per-topic tutorial series most pages are distilled from.
+- [The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight](https://www.youtube.com/watch?v=P_PzglCFo9I) by Tarkusarkusar — a single 2½-hour systems tutorial (Dec 2025); its concepts feed surgical updates across the topic pages and its applied half is the [Belgium case study](case-studies/belgium-conquer-colonize-react.md).

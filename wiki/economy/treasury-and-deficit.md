@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/02-deficit-spending.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
 wiki:
   - https://vic3.paradoxwikis.com/Treasury
 generated_at: 2026-05-16
@@ -19,6 +20,8 @@ Deficit spending is not a button — it is a **decision posture**. You deliberat
 - **Pause Government Construction as the brake** — When utilisation climbs, **pause the government queue**, not Construction Sectors. The private sector keeps building from the Investment Pool and the weekly balance flips positive. Decision rule: unpause once the red bar drops back under 50%.
 - **Country Rank gates interest rate** — Below Major Power the interest rate is too high to outrun the loop. Decision rule: do not attempt deficit spending until you are at least a Major Power, ideally a Great Power.
 - **Investment Pool weekly income > Pool balance** — The Pool's *inflow* is what keeps the private sector building; a stalled Pool dumps the burden back on the treasury. Decision rule: if Pool income sags, suspect construction-goods price spikes or foreign Regional HQs siphoning reinvestment.
+- **Early game you tax wages, not dividends** — Dividend taxation (Proportional/Graduated) unlocks later; until then your tax base *is* the wage bill of your buildings. Decision rule: treat every PM/building upgrade that converts Laborers into higher-paid Machinists/Engineers as a *direct* tax-revenue increase, not just a SoL or productivity move — better-paying jobs are how you grow the budget before dividend taxes exist (2025 comprehensive tutorial, [07:01]).
+- **Budget "differential diagnosis" — cost = per-unit price × volume** — Don't be fooled by an input's sticker price (a big gold-coin number per unit). The line that actually drains the budget is per-unit price × volume consumed. A cheap-looking good bought in huge quantity (iron, consumed ~4× more than pricier-looking fabric) is the real construction cost. Decision rule: when the weekly balance turns red, find the highest *total*-cost input and lower its price by building more of it — not by cutting spending on the flashy expensive good (2025 comprehensive tutorial, [1:38:00]). See the Belgium run for a worked diagnosis ([../case-studies/belgium-conquer-colonize-react.md](../case-studies/belgium-conquer-colonize-react.md)).
 
 ## Game numbers & rules of thumb
 - Debt limit = total cash reserves of all your buildings; default fires when debt **reaches** the limit `[from 02-deficit-spending]`.
@@ -74,3 +77,4 @@ Deficit spending is not a button — it is a **decision posture**. You deliberat
 
 ## Sources
 - `../../notes/tutorials/02-deficit-spending.md`
+- `../../notes/comprehensive-tutorial-2025/01-economics.md`

@@ -1,6 +1,8 @@
 ---
 sources:
   - ../../notes/tutorials/21-how-to-play-as-a-small-nation.md
+  - ../../notes/comprehensive-tutorial-2025/04-diplomacy.md
+  - ../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md
 wiki:
   - https://vic3.paradoxwikis.com/Rank
 generated_at: 2026-05-16
@@ -34,6 +36,18 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
 17. **Subject types.** Personal Union (0% tax to overlord, ~50% convoys, can break via dynastic events, integrate via Nationalism tech), Puppet (30% income, 50% convoys, +50 Liberty Desire from PU→Puppet conversion, can't start own wars), Vassal (income/convoy mid), Protectorate (most autonomous, doesn't count for nation-formation prerequisites). Decision rule: stay on Protectorate for income/infamy efficiency but demote to Dominion or lower when you need formation. `[from beginner-tutorial ep04, ep13, ep17]`
 
 18. **Trade Agreement / Defensive Pact / Alliance lifts the +50 Improve Relations cap.** Many actions (Reduce Autonomy on subjects, formation prerequisites) need relations above +50, which Improve Relations alone cannot reach. `[from beginner-tutorial ep13]`
+
+19. **Read attitude and AI behaviors, not the relations number.** The relations score is nearly cosmetic; what actually governs whether a great power moves against you is its opaque **attitude** (cooperative, protective, weary, antagonistic) plus its **AI behaviors** — e.g. a Britain running *economic imperialism* wants subjects that expand its market, but stays diplomatic toward markets it can't subjugate. Two neighbours with identical neutral relations can hold opposite attitudes (2025 comprehensive tutorial, [47:01], [48:30]). *Decision rule:* in your week-1 threat assessment, hover each bordering power's attitude and skim its behaviors; a "weary" or *expand-industries*-driven neighbour is a likelier aggressor than the raw relations figure suggests.
+
+20. **Relations only matter at thresholds.** Attitude/diplomacy modifiers unlock at positive **0 / 20 / 50 / 80** and negative **−20 / −50 / −80**; values between thresholds are equivalent (70 ≡ 51, 5 ≡ 0) (2025 comprehensive tutorial, [50:00]). *Decision rule:* don't burn diplomatic effort grinding intermediate relations — push only to clear the next threshold (typically the +50 needed for treaties that lift the Improve-Relations cap in item 18).
+
+21. **One alliance, unlimited defensive pacts.** A small nation can hold exactly **one** alliance at a time but as many defensive pacts as it wants, and you cannot ally an AI that is already allied to someone else (2025 comprehensive tutorial, [51:31]). *Decision rule:* spend your single alliance slot on the war you actually intend to fight; stack defensive pacts freely as cheap deterrence, and don't waste influence courting an already-allied great power.
+
+22. **Influence is treaty upkeep; rivalry is the faucet.** Every active treaty drains ongoing influence (a trade privilege with Britain costs ~90/week); over-signing pushes you into an influence deficit. The main way to *generate* influence is declaring **Rivals**, but each rival drags relations toward −20 and invites being rivaled back — so diplomacy is self-limiting (2025 comprehensive tutorial, [55:30]). *Decision rule:* as a small nation with thin influence, sign only the treaties you can fund, and pick a rival you were going to antagonise anyway (a likely war target) rather than rivaling for influence alone.
+
+23. **The subject-market cheat.** Becoming a subject of a strong, resource-rich market (e.g. Prussia, whose ammunition supply lets you safely upgrade to skirmish infantry) wins wars cheaply on the overlord's economy and can call the overlord in as a free extra army. A subject below **25 Liberty Desire** can be puppeted, so once the war is won, deliberately ask the overlord for something they'll refuse (e.g. market control) to keep Liberty Desire high and avoid annexation (2025 comprehensive tutorial, [1:44:31], [1:48:00]). *Decision rule:* a structurally weak nation can borrow a great power's market to punch above its weight — accept subordination for the war, then sabotage relations to stay above 25 LD. See the [Belgium conquer-colonize case study](../case-studies/belgium-conquer-colonize-react.md).
+
+24. **High infamy turns your own subjects against you.** If you hold subjects, accumulating infamy sharply raises their **Liberty Desire**; a neglected high-LD subject can attract independence backing from several great powers and start a surprise multi-alliance war "from nowhere" (2025 comprehensive tutorial, [58:00]). *Decision rule:* a small nation that has acquired subjects must keep infamy low — your subjects are the first thing a rising infamy bill breaks.
 
 ## Game numbers & rules of thumb
 
@@ -87,6 +101,7 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
   - [Power blocs](./power-blocs.md)
   - [Army](../military/army.md), [Navy](../military/navy.md), [War and naval invasions](../military/war-and-naval-invasions.md)
   - [Japan: the Great Wave](../case-studies/japan-great-wave/index.md)
+  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — the subject-market cheat (Prussia) and keeping Liberty Desire above 25 in practice.
 - **Official wiki:**
   - [Rank](https://vic3.paradoxwikis.com/Rank)
   - [Treasury](https://vic3.paradoxwikis.com/Treasury)
@@ -95,3 +110,5 @@ Playing as a minor nation — an Unrecognized Power, Minor Power, or weak Recogn
 ## Sources
 
 - `../../notes/tutorials/21-how-to-play-as-a-small-nation.md` — "How to Play as a Small Nation in Victoria 3 in 2025" (40:55 runtime).
+- `../../notes/comprehensive-tutorial-2025/04-diplomacy.md` — "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight" by Tarkusarkusar, 2025-12-16, ch. 4 Diplomacy (attitude, relations thresholds, alliances, influence/rivalry).
+- `../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md` — same video, Belgium synthesis (subject-market cheat).

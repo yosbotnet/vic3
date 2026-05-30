@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/19-military-army.md
+  - ../../notes/comprehensive-tutorial-2025/05-war.md
 wiki:
   - https://vic3.paradoxwikis.com/Land_warfare
 generated_at: 2026-05-16
@@ -49,6 +50,16 @@ The Army is Victoria 3's land force, but mechanically it is a supply-chain probl
 
 18. **Strategic Objective (right-click)** — right-click a state and select Strategic Objective to make your fronts prioritise pushing toward that state. The one player-side pathing control on top of Advance/Defend orders, useful for racing to an enemy capital. `[from beginner-tutorial ep17]`
 
+19. **Unit roles: infantry defend, artillery attack, cavalry occupy** — Each unit type has a job. Baseline Line Infantry sits around ~20 offence / ~25–26 defence, making it your defensive backbone. *Decision rule:* compose Armies around the role you need — defensive Fronts want Infantry weight, offensive pushes want attack power, and clearing states behind a front leans on Cavalry's occupation. (2025 comprehensive tutorial, [1:05:00] / [1:05:30])
+
+20. **Early-game artillery is strictly worse than cavalry — drop it, re-add it later** [UPDATE] — A Lancer (31 offence / 21 defence) beats a Cannon (25 offence / 15 defence) on every axis early, and additionally has more battle occupation and a higher kill rate; the cannon's only edge is devastation. Artillery earns its slot only once later tech scales it up. *Decision rule:* in the early game run cavalry over artillery, and add artillery back to your Main Army only after researching the tiers that make it competitive. The [Belgium case study](../case-studies/belgium-conquer-colonize-react.md) wins its Netherlands war on exactly this kind of cheap early composition. (2025 comprehensive tutorial, [1:05:30] / [1:06:01])
+
+21. **Cavalry/Lancers capped at half the Army** — Beyond the organization penalty for Cavalry + Artillery > Infantry (rule 11), Cavalry alone cannot exceed half the Army or it triggers an "insufficient support" penalty (e.g. 15 Infantry supports at most 15 Lancers). *Decision rule:* size a Cavalry Army's Lancer count to its Infantry count, not above it. (2025 comprehensive tutorial, [1:37:30])
+
+22. **Professional vs conscript is an economics choice, not a stats choice** — A professional regiment takes ~9 weeks to build (and reinforces); conscripts build instantly but then *fill* slowly with low-experience pops, and they still cost equipment goods. Their whole purpose is to inflate Army size past what your economy could sustain as professionals — so your professional count is the honest measure of the force you can actually afford. *Decision rule:* decide the professional/conscript split on what your Market and treasury can carry, never on combat stats. (2025 comprehensive tutorial, [1:14:01] / [1:14:32] / [1:16:00])
+
+23. **Never grant an army bonus for a good you don't produce** [UPDATE] — Mobilization options and supplements are paid in *goods*, not money; granting one whose input good isn't on your Market causes a shortage that *caps organization* (a 36% shortage caps org at 63%), crippling the Army. This bites far harder than in older patches, where an absent good was still net-positive. *Decision rule:* before enabling any mobilization bonus, confirm its input good is supplied; if it isn't, leave the bonus off. (2025 comprehensive tutorial, [1:21:02])
+
 ## Game numbers & rules of thumb
 Generalisable values from `[from 19-military-army]`:
 
@@ -63,6 +74,13 @@ Generalisable values from `[from 19-military-army]`:
 - Supplements: Tobacco / Liquor / Opium = 0.5 unit per Battalion; Chocolate = 1.0 Sugar per Battalion.
 - Forced March: free at game start, costs morale, grants formation speed and mobilization speed.
 - Naval Invasion: 1 Army + 1 Navy; 100% efficiency only while Battalions ≤ Flotillas; 3 lost land battles ends the invasion.
+
+Early-game unit stats and timings (2025 comprehensive tutorial):
+- Line Infantry baseline: ~20 offence / ~25–26 defence (2025 comprehensive tutorial, [1:05:00]).
+- Lancer (Cavalry): 31 offence / 21 defence — strictly beats the early Cannon (Artillery) at 25 offence / 15 defence, plus more occupation and kill rate; the Cannon leads only on devastation (2025 comprehensive tutorial, [1:05:30]).
+- Professional regiment build time ~9 weeks; 1 regiment = 1,000 men (2025 comprehensive tutorial, [1:14:01] / [1:14:32]).
+- Cavalry cannot exceed half the Army without an "insufficient support" penalty (15 Infantry → max 15 Lancers) (2025 comprehensive tutorial, [1:37:30]).
+- Goods shortage caps Army organization: a 36% shortage caps org at 63% (2025 comprehensive tutorial, [1:21:02]).
 
 ## Strategy & playbook
 
@@ -103,3 +121,4 @@ Generalisable values from `[from 19-military-army]`:
 
 ## Sources
 - `../../notes/tutorials/19-military-army.md` — Victoria 3 Military Tutorial Part One: Army in 2025 (51:22 runtime).
+- `../../notes/comprehensive-tutorial-2025/05-war.md` — The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight, by Tarkusarkusar, 2025-12-16 (chapter 5, War).

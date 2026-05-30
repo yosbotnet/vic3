@@ -1,6 +1,8 @@
 ---
 sources:
   - ../../notes/tutorials/04-standard-of-living-wages-and-wealth.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
+  - ../../notes/comprehensive-tutorial-2025/02-pops.md
 wiki:
   - https://vic3.paradoxwikis.com/Standard_of_living
 generated_at: 2026-05-16
@@ -39,6 +41,12 @@ You should care from the first decade. Until your lower strata cross the Wealth 
 11. **Job-switching friction blocks reemployment** — A Pop only switches jobs when the new wage is at least 10% above current effective income. If welfare overpays unemployed Pops, no realistic building wage can lure them back, and the unemployment becomes structural. Calibrate welfare so it stays roughly below normal wage; never raise the Social Security level speculatively.
 
 12. **SoL feedback into politics and migration** — Each strata has a minimum expected SoL that rises with literacy and with ideologies like Socialism. Below expected → Radicals; above → Loyalists. SoL also drives migration attraction: states with higher SoL than their neighbors pull Pops in. Slashing welfare is therefore a double cost — a wave of Radicals AND a reversed migration current.
+
+13. **SoL is the beating heart of the economy, not just a morality score** — Each SoL level, a Pop buys that level's goods and then spends any leftover money trying to climb to the next (each level consumes more goods). Richer Pops therefore buy more, which directly raises the profits of the buildings selling to them — the demand side of the loop that lets the private sector expand. Decision rule: treat raising SoL as an *economic* lever (it grows building profits and the Investment Pool), not only a way to suppress Radicals; the two levers that lift it are cheaper consumed goods and better-paying jobs (2025 comprehensive tutorial, [24:31]). Of the two, **better jobs is the stronger lever** — the game weights job income as more important — so a PM swap that converts Laborers into higher-multiplier professions usually beats chasing cheaper inputs (2025 comprehensive tutorial, [25:00]).
+
+14. **Peasants drag down state SoL and wages** — Peasants live off subsistence, pay little tax, buy few goods, and supply few goods to the market; worse, their low SoL drags down a state's *average* SoL, which in turn depresses the wages every building in that state pays. The fix is to build jobs that pull them off the land — peasants happily take better-paying factory/farm work as soon as it exists, and while peasants remain you will never struggle to staff new buildings. Decision rule: read a state full of peasants as fuel, not as a problem; an economy that *stalls because it ran out of peasants to employ* is a sign you did it right — at that point grow via trade, not more domestic buildings (2025 comprehensive tutorial, [10:32]).
+
+15. **Slaves — 2× workforce but a long-term trap** — Importing slaves makes their dependents work too, so you get roughly twice the workers of a free Pop, and they pay no taxes: the wage they'd have earned becomes excess profit for the building's owners instead. But the model degrades over time — slaves have low SoL that drags state wages and breeds Radicals, and they cannot fill the advanced jobs (Machinists, Engineers) that better Production Methods demand. Decision rule: slavery is a short-term profit cheat that caps your industrial ceiling; plan to abolish it before your PM ladder needs qualified labour the slaves can't supply (2025 comprehensive tutorial, [22:01]).
 
 ## Game numbers & rules of thumb
 
@@ -104,3 +112,5 @@ Finally, remember that SoL is a politics and migration engine, not just a number
 ## Sources
 
 - `notes/tutorials/04-standard-of-living-wages-and-wealth.md` — [Standard of Living, Wages, and Wealth Tutorial in Victoria 3](https://www.youtube.com/watch?v=fvHnfklJCvY)
+- `../../notes/comprehensive-tutorial-2025/01-economics.md` — The Comprehensive Victoria 3 Tutorial (2025), Tarkusarkusar
+- `../../notes/comprehensive-tutorial-2025/02-pops.md` — The Comprehensive Victoria 3 Tutorial (2025), Tarkusarkusar

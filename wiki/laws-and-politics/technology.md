@@ -12,6 +12,7 @@ sources:
   - ../../notes/great-wave-japan/ep14.md
   - ../../notes/great-wave-japan/ep16.md
   - ../../notes/tutorials/21-how-to-play-as-a-small-nation.md
+  - ../../notes/comprehensive-tutorial-2025/06-belgium-synthesis.md
 wiki:
   - https://vic3.paradoxwikis.com/Technology
 generated_at: 2026-05-16
@@ -41,6 +42,8 @@ Technology is the long-term lever for everything that compounds in Victoria 3 �
 
 8. **Tech prerequisites gate laws and buildings; pre-check them** — Some laws and buildings are locked behind specific techs (Warrior Caste repeal needs General Training; iron-frame buildings need Atmospheric Engine; viable engine ships need the propulsion tier). Read the prerequisite chain *before* queuing the law/building; reordering reactively wastes journal-entry time windows [[ep01](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep01.md), [ep10](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep10.md), [ep11](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep11.md)].
 
+9. **Universities are government-only — research costs government wages** — The two halves of research speed are literacy (it raises how much Innovation/research you can *hold*, the cap) and Universities (they *generate* the actual research). There are **no privatised Universities** — the building is always government-run, so every level of research output is paid for out of government wages, not private investment. Decision rule: budget Universities as a *government expense*, not a self-financing private building; in a tight treasury, rushing a slow high-tier tech via mass Universities (e.g. malaria prevention for a Congo colony plan) means accepting a real, ongoing wage bill — there is no privatise-it escape hatch (2025 comprehensive tutorial, [2:02:30]).
+
 ## Game numbers & rules of thumb
 
 - **University:** 400 construction, +20 urbanization per level, plus Innovation. The canonical research building [[ep10](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep10.md), [ep11](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep11.md)].
@@ -49,6 +52,7 @@ Technology is the long-term lever for everything that compounds in Victoria 3 �
 - **Technology Spread:** one tech per tree branch from neighbours, passive [from [21-how-to-play-as-a-small-nation](https://github.com/yosbotnet/vic3/blob/main/notes/tutorials/21-how-to-play-as-a-small-nation.md)].
 - **Literacy:** affects tech-spread speed only, not active research speed [[ep10](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep10.md)].
 - **Literacy decay (1.13.1+):** decays toward your education-access level — maintain education-access laws to hold literacy [[ep13](https://github.com/yosbotnet/vic3/blob/main/notes/great-wave-japan/ep13.md)].
+- **Universities are always government-run** — no privatised version exists, so research output is funded from government wages (2025 comprehensive tutorial, [2:02:30]).
 
 ## Strategy & playbook
 

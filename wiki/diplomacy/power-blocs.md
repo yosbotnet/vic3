@@ -1,6 +1,8 @@
 ---
 sources:
   - ../../notes/tutorials/09-power-blocs.md
+  - ../../notes/comprehensive-tutorial-2025/04-diplomacy.md
+  - ../../notes/comprehensive-tutorial-2025/05-war.md
 wiki:
   - https://vic3.paradoxwikis.com/Power_blocs
 generated_at: 2026-05-16
@@ -26,6 +28,10 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
 12. **Power Struggle** — Any Member with **+20% Prestige over the Leader** can start a Power Struggle. Holding **+15% Prestige for 12 months** (9 if reclaiming) flips leadership. *Decision rule:* check the Prestige delta **before** spending Influence to recruit — inviting a higher-Prestige country (e.g. France into a US-led Bloc with +24% Prestige) hands them the Bloc on a timer.
 13. **Power Bloc Statue** — Built in Development. Every variant gives +3 Prestige; type-specific state bonuses include Ideological Union (+5 Influence, +25% political strength), Military Treaty (+25% conscripts), Religious Convocation (+25% conversion, −10% turmoil effects), Sovereign Empire (−25% decree cost), Trade League (+10% loyalists from movements, +10% infrastructure from population). *Decision rule:* place in the state where the **state-scoped** bonus pays back hardest (Trade League statue in your highest-pop state, Military Treaty in your largest conscription state, etc.).
 14. **Leader diplomatic actions (5-year membership required)** — Sovereign Empire: subjugate a Member. Ideological Union: Force Regime Change. Religious Convocation: change a Member's state religion. *Decision rule:* if you JOIN a Sovereign Empire Bloc, you can be vassalized after 5 years — treat Britain's or Russia's Blocs accordingly.
+15. **Bloc type taxonomy** — beyond the five formable Pillars above, the full set of Bloc axes the AI can run is **trade leagues, military alliances, religious convocations, cultural unions, ideological unions, and sovereign empires**; each carries different Principle bonuses, a strong Bloc implements Mandates that benefit Leader and Members, and Members contest leadership via competing Prestige (2025 comprehensive tutorial, [52:30]). *Decision rule:* when you JOIN rather than lead, read the Bloc's axis to know what the Leader can eventually do to you (a Cultural Union pulls on shared-trait Factor; a Sovereign Empire ends in subjugation).
+16. **Subjects are automatic Members** — any subject you acquire is counted as a power-bloc Member with no recruitment cost and no Leverage campaign (2025 comprehensive tutorial, [57:31]). *Decision rule:* conquering or puppeting nations beefs up your Bloc for free — but each free (non-subject... here, subject-but-still-counted) Member still feeds the Cohesion math, so the Sovereign Empire penalty/discount tiers in item 11 still apply. See [War and Naval Invasions](../military/war-and-naval-invasions.md) and the [Belgium conquer-colonize case study](../case-studies/belgium-conquer-colonize-react.md).
+17. **Treaty binding period** — every treaty has a binding period during which it should be upheld but *can* still be broken; the breaker takes a map-wide diplomatic-reputation hit plus a severe relations penalty with the counterparty, both scaled by how much binding time remained when broken (2025 comprehensive tutorial, [52:00]). *Decision rule:* don't sign Bloc-feeding articles (Trade Privileges, Investment Rights) you expect to tear up early — breaking a fresh long treaty is far costlier than letting a short one lapse.
+18. **Diplomatic Plays are just wars** [UPDATE] — a Diplomatic Play is mechanically a war with a 100-day waiting period; the "diplomatic incident" label is cosmetic. Adding war goals costs Infamy, only *partially* refunded if the enemy backs down (2025 comprehensive tutorial, [1:00:30], [1:03:31]). *Decision rule:* a rejected Bloc invite or refused demand that escalates to a "Diplomatic Play" is a real war on a timer — treat the 100-day window as mobilisation time, not a cooling-off period.
 
 ## Game numbers & rules of thumb
 - Formation: 500 Influence, GP / Major / UR Major rank, not Isolationism `[from 09-power-blocs]`
@@ -43,6 +49,8 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
 - Power Struggle: triggers at +20% Prestige over Leader; flip threshold +15% Prestige for 12 months (9 if reclaiming) `[from 09-power-blocs]`
 - Failed invite / rejection: −50 relations both ways `[from 09-power-blocs]`
 - Statue: +3 Prestige always, plus pillar-specific state bonus `[from 09-power-blocs]`
+- **Infamy thresholds: 25 / 50 / 100.** At 25 nations distrust you (diplomacy harder); at 50 most nations will join Plays against you when you get aggressive; at 100 great powers actively work to rip you apart, disloyal subjects defect, and others embargo you. Infamy is **contextual** — attacking unrecognised nations is much cheaper, and taking low-population land or land culturally similar to your own primary culture costs far less than equivalent European land (2025 comprehensive tutorial, [1:03:31], [1:04:31]).
+- **DLC framing** [UPDATE] — the recently-expanded DLC diplomacy (more warfare- and peace-deal-based interactions) is what elevates Vic3's diplomacy; excluding that layer, the base diplomacy is "quite lacking compared to other Paradox titles" (2025 comprehensive tutorial, [45:32]).
 - **Multilateral Alliances tech gates the 1-ally limit.** Before that tier-4 tech, a country can hold exactly one Alliance at a time. Plan your one ally for the war you actually intend to fight. (verify tech tier on current patch) `[from beginner-tutorial ep16]`
 
 ## Strategy & playbook
@@ -76,6 +84,7 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
   - [Companies](../economy/companies.md) — Companies feed Prestige, which gates Power Struggles.
   - [War and Naval Invasions](../military/war-and-naval-invasions.md) — failed invites and rejected demands can escalate into Diplomatic Plays.
   - [Passing Laws](../laws-and-politics/passing-laws.md) — your law profile constrains which Pillars and Principles work for you.
+  - [Belgium: conquer, colonize, react](../case-studies/belgium-conquer-colonize-react.md) — subjects acquired by conquest auto-join the Bloc; the run also shows Diplomatic Plays as wars-on-a-timer.
 - **Official wiki:**
   - [Power_blocs](https://vic3.paradoxwikis.com/Power_blocs)
   - [Diplomacy](https://vic3.paradoxwikis.com/Diplomacy)
@@ -83,3 +92,5 @@ A Power Bloc is a Leader-headed union of countries built around a **Central Iden
 
 ## Sources
 - `../../notes/tutorials/09-power-blocs.md`
+- `../../notes/comprehensive-tutorial-2025/04-diplomacy.md` — "The Comprehensive Victoria 3 Tutorial (2025) | Iberian Twilight" by Tarkusarkusar, 2025-12-16, ch. 4 Diplomacy.
+- `../../notes/comprehensive-tutorial-2025/05-war.md` — same video, ch. 5 War (infamy thresholds, Diplomatic Play framing).

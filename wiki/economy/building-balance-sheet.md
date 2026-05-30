@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/16-building-balance-sheet.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
 wiki:
   - https://vic3.paradoxwikis.com/Buildings
 generated_at: 2026-05-16
@@ -26,6 +27,7 @@ The Building balance sheet is the weekly per-Building accounting tooltip that sh
 10. **Local-workforce ownership routes Dividends to worker pops** — Pops doing the work also own the Building, so Dividends top up their pop income on top of Wages, and a fixed % of those Dividends is contributed to the Investment Pool per Profession. Decision rule: expect bigger Pool flows from Buildings staffed by higher Professions (clergy/aristocrats 20% vs. laborers 0%). Slaves never count as owners.
 11. **Manor houses and financial districts as ownership Buildings** — Manor houses generally own agricultural Buildings; financial districts generally own urban ones, with Dividends paid to their aristocrats/clergy/capitalists. Decision rule: building manor houses or financial districts replaces local-workforce ownership, concentrating Dividends into upper-strata pops — who pay more tax and contribute to the Pool at 20%.
 12. **Efficiency vs. contribution wording** — Positive "efficiency" creates money from nothing; negative "efficiency" deletes it. Decision rule: read every "efficiency" modifier as a money creator/destroyer, not a redirector — Traditionalism's −50% Investment Pool Contribution Efficiency halves Pool contributions into the void.
+13. **Untaxable profit is still load-bearing** — Even profit you cannot tax (the Investment Pool slice, owner pockets before dividend taxation unlocks) stays valuable, because it feeds the Pool that the private queue spends to build more buildings — and those buildings pay *taxable* wages. Decision rule: never dismiss a Building as "useless" because its profit lands somewhere you can't tax this decade; judge it by how much it pumps into the Pool that builds your future tax base (2025 comprehensive tutorial, [07:30]).
 
 ## Game numbers & rules of thumb
 
@@ -73,3 +75,4 @@ The Building balance sheet is the weekly per-Building accounting tooltip that sh
 ## Sources
 
 - `../../notes/tutorials/16-building-balance-sheet.md`
+- `../../notes/comprehensive-tutorial-2025/01-economics.md`

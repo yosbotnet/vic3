@@ -3,6 +3,7 @@ sources:
   - ../../notes/tutorials/12-treaty-port-and-market-price.md
   - ../../notes/tutorials/13-how-to-work-trade-centers-and-trade-routes.md
   - ../../notes/tutorials/15-world-market-and-trade-center.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
 wiki:
   - https://vic3.paradoxwikis.com/Markets
 generated_at: 2026-05-16
@@ -28,7 +29,7 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 
 6. **Relative Trade Advantage drives price** — `Relative Advantage = (your % of global advantage / your % of global trade volume) − 100%`. Positive means cheap imports / premium exports; negative means a price penalty [from 13-how-to-work-trade-centers-and-trade-routes][from 15-world-market-and-trade-center]. **Decision rule:** only push exports where your % of global advantage exceeds your % of global volume; otherwise raise advantage (Interests, Privileges, Mercantilism, Company) before scaling volume [from 13-how-to-work-trade-centers-and-trade-routes].
 
-7. **Tariffs & Subventions** — Tariffs charge the Trade Center per unit (discouraging that direction); Subventions pay it per unit (forcing trade even on unprofitable routes) [from 15-world-market-and-trade-center]. The route stays auto-profitable while `local price − world price > tariff`; once it stops, only a Subvention will keep it running [from 15-world-market-and-trade-center]. **Decision rule:** on a good you want to export, set a small export Subvention to kickstart it and a max import Tariff so you never accidentally import it; remove the Subvention once Relative Trade Advantage carries it [from 13-how-to-work-trade-centers-and-trade-routes][from 15-world-market-and-trade-center].
+7. **Tariffs & Subventions** — Tariffs charge the Trade Center per unit (discouraging that direction); Subventions pay it per unit (forcing trade even on unprofitable routes) [from 15-world-market-and-trade-center]. The route stays auto-profitable while `local price − world price > tariff`; once it stops, only a Subvention will keep it running [from 15-world-market-and-trade-center]. **Decision rule:** on a good you want to export, set a small export Subvention to kickstart it and a max import Tariff so you never accidentally import it; remove the Subvention once Relative Trade Advantage carries it [from 13-how-to-work-trade-centers-and-trade-routes][from 15-world-market-and-trade-center]. Treat both as *steering* tools, not a revenue source — the extra profit your private sector earns from untariffed trade usually exceeds the tariff income you'd collect by taxing it, so tariff a flow to shape it, not to fund the budget (2025 comprehensive tutorial, [19:31]).
 
 8. **Declared Interests in importing markets** — You lose Trade Advantage points for every relevant market (top importer/exporter of the good) where you have no Interest [from 13-how-to-work-trade-centers-and-trade-routes]. **Decision rule:** spend Interest slots on the regions of the biggest importers of your target export; small countries in a region with no Goods Potential for that good will always import, making the Interest doubly valuable [from 13-how-to-work-trade-centers-and-trade-routes].
 
@@ -49,6 +50,10 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 16. **Imports cost capacity too** — Capacity used to import a missing good is capacity not earning export revenue [from 13-how-to-work-trade-centers-and-trade-routes]. **Decision rule:** domesticate inputs (e.g., research Intensive Agriculture, switch domestic PMs) so Trade Capacity stays free for high-margin exports [from 13-how-to-work-trade-centers-and-trade-routes].
 
 17. **Conquered/colony market access requires a port.** A non-contiguous conquered state has 0% market access until you build a port. An Anchorage is sufficient — you don't need a Cargo Port for market access. `[from beginner-tutorial ep07]`
+
+18. **Trade adds demand with almost no new labor.** A Trade Center employs only about 1,000 pops, versus ~5,000 for most buildings — so trade is the cheapest way to add market demand (and to nudge a good's price) without consuming the labor pool a new factory would. **Decision rule:** once domestic demand is exhausted and you've run out of peasants to employ, grow via trade rather than more domestic buildings — you create demand for your surplus output without needing pops you don't have (2025 comprehensive tutorial, [12:31]).
+
+19. **Trade-reliance scales inversely with market size.** A small market saturates fast: tiny Belgium floods the world iron market within a few buildings, so it must lean on trade to keep prices up almost immediately. A Britain-sized market (India + Canada + the Isles) absorbs a specialised good far longer before the price collapses. **Decision rule:** the smaller your market, the sooner over-specialisation crashes your good's price and the harder you must work trade (Interests, Privileges, exports) to keep it profitable; large markets can over-produce a good for far longer before needing the same trade scaffolding (2025 comprehensive tutorial, [15:30]).
 
 ## Game numbers & rules of thumb
 
@@ -126,3 +131,4 @@ Trade in Victoria 3 (post-1.9 / Charters of Commerce) is how your nation exchang
 - [Treaty Port and Market Price Tutorial in Victoria 3](https://www.youtube.com/watch?v=B_RqWrgYmJI) — `notes/tutorials/12-treaty-port-and-market-price.md`
 - [How to Work Trade Centers and Trade Routes in Victoria 3](https://www.youtube.com/watch?v=FAghv7otHAE) — `notes/tutorials/13-how-to-work-trade-centers-and-trade-routes.md`
 - [World Market and Trade Center Tutorial in Victoria 3](https://www.youtube.com/watch?v=E6fTjF9wb_I) — `notes/tutorials/15-world-market-and-trade-center.md`
+- `../../notes/comprehensive-tutorial-2025/01-economics.md` — The Comprehensive Victoria 3 Tutorial (2025), Tarkusarkusar

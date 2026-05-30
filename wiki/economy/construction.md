@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/11-construction.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
 wiki:
   - https://vic3.paradoxwikis.com/Construction
 generated_at: 2026-05-16
@@ -32,6 +33,7 @@ The strategic question is never "should I build more Sectors?" (the answer is ye
 15. **Consumption taxes by consumer class** — Pop spending breaks down by strata, and SoL hits scale with the share each strata buys. DECISION RULE: tax Services, Transportation, Luxury Clothes, Luxury Furniture (upper-strata heavy); avoid taxing Clothes and Grain (universal — drops SoL across all classes).
 16. **High Taxes is emergency-only** — The High Taxes law extracts more revenue but drains pop spending money, which shrinks the very economy you are taxing. DECISION RULE: use only briefly while waiting for a privatization sale to land; drop to Medium the moment reserves recover.
 17. **Infrastructure cap** — Each state has an infrastructure budget (base + population + ports + railways). Buildings consume infrastructure; going over costs Market Access. Capital states get +25% infrastructure. DECISION RULE: when a state's market access is dropping, check infrastructure before assuming a trade issue. `[from beginner-tutorial ep01]`
+18. **Throughput is the per-Construction-Point efficiency multiplier** — Throughput scales a building's input goods AND output goods proportionally, but NOT its wages. That makes it an efficiency multiplier per Construction Point spent *and* per worker paid: the same CP outlay and the same wage bill yield more economic output. DECISION RULE: when choosing what to build with limited CP, prefer buildings/owners carrying throughput bonuses (company-owned, decree-boosted) — you buy more output per point than an unbonused level (2025 comprehensive tutorial, [14:03]).
 
 ## Game numbers & rules of thumb
 
@@ -52,6 +54,7 @@ All from `[from 11-construction]`:
 - ~30 Construction points is the threshold to pivot toward "main export" focus and trade-advantage treaties.
 - **Per-building construction cap:** 25 construction points per week is the maximum any single building under construction can absorb. Queue 2+ buildings in parallel to use surplus Construction Sector output. (verify on current patch) `[from beginner-tutorial ep02]`
 - **Cargo Port** +5 infrastructure, **Industrial Port** +7.5, **Railway** +20 per level. `[from beginner-tutorial ep01]`
+- Worked build-time example: a Tooling Workshop costs **600 Construction points**; at **30 CP/week** of capacity that is **20 weeks** to complete (total cost ÷ weekly CP applied = build time). (2025 comprehensive tutorial, [14:31])
 
 ## Strategy & playbook
 
@@ -99,3 +102,4 @@ All from `[from 11-construction]`:
 ## Sources
 
 - `notes/tutorials/11-construction.md`
+- `../../notes/comprehensive-tutorial-2025/01-economics.md`

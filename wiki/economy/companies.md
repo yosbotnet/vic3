@@ -1,6 +1,7 @@
 ---
 sources:
   - ../../notes/tutorials/14-companies-and-prosperity.md
+  - ../../notes/comprehensive-tutorial-2025/01-economics.md
 wiki:
   - https://vic3.paradoxwikis.com/Companies
 generated_at: 2026-05-16
@@ -26,6 +27,8 @@ Companies are the post-1.9 hub of the economic game: pick which buildings to bun
 12. **Monopoly Rights** — Only the Company and the government may build the named building type; private builders are locked out. *Decision rule:* monopolize building types you want built fast under Company bonuses — but only when government plus Company capacity can actually keep pace with demand.
 13. **Prestige Good unlock** — Reaching Prosperous opens a Journal Entry; finishing it usually requires staying Prosperous and ranking top-3 globally on the relevant good for 36 (cumulative, not consecutive) months. *Decision rule:* once Prosperous, defend your top-3 ranking — expand production, sign trade routes, or politically/militarily disrupt rival producers.
 14. **Foreign buildings — no PM control** — Buildings the Company owns abroad run whatever PM the host runs, which can sandbag your global productivity average. *Decision rule:* be very conservative with Investment Rights into volatile or backward markets.
+15. **Company-owned buildings get +15% Throughput** — A building owned by a Company carries a flat +15% Throughput bonus (on top of any Executive trait), meaning more output per worker and per Construction Point on every level it holds. *Decision rule:* the more of a building family a Company owns, the more total Throughput across your economy — so prefer Company ownership over private/government ownership for any building family you've committed a slot to (2025 comprehensive tutorial, [14:03]).
+16. **Companies build at higher construction efficiency than you** — When a Company builds its own buildings via the private queue, it spends *fewer* Construction Points per level than the player does, so Company expansion is cheaper than government construction of the same building. *Decision rule:* once a Company exists for a building family, let it build those levels (privatise/monopolise so it picks them up) rather than spending government CP yourself (2025 comprehensive tutorial, [15:02]).
 
 ## Game numbers & rules of thumb
 - Prosperous threshold: ≥100 to gain, <75 to lose `[from 14-companies-and-prosperity]`.
@@ -38,13 +41,19 @@ Companies are the post-1.9 hub of the economic game: pick which buildings to bun
 - Charter cost beyond free slots: 100 Authority each `[from 14-companies-and-prosperity]`.
 - Investment Pool returns from a foreign Regional HQ flow to the owner, not the host `[from 14-companies-and-prosperity]`.
 - Practical Company-slot ceiling: 9 (5 Society tech tier, +1 from a Power Bloc Corporate State + Companies principle, +2 from canal Companies) `[from 14-companies-and-prosperity]`.
+- Company-owned building Throughput bonus: **+15%** flat, on every level the Company owns (2025 comprehensive tutorial, [14:03]).
+- **What a Prestige Good actually does:** +Throughput to any building using it as an input; extra Trade Advantage when traded; +SoL to pops that consume it (if it's a consumable good); +army stats if it's a military prestige good. Prestige Goods can be renamed for flavour (2025 comprehensive tutorial, [18:00]).
 
 ## Strategy & playbook
 Treat your Company slots like ministries: each one is a permanent commitment to a building family. Before slotting in a Company, ask "am I going to actually build a lot of these buildings, on the best PM, with the labour to staff them?" If the answer is no, pick something else. The Society tech line (Corporate Charters → Joint-Stock Companies → Investment Banks → Corporate Governance → Macroeconomics) is your slot pipeline — rush at least Corporate Charters early so your initial industrial push is wrapped in Company bonuses from the start.
 
 For each active Company, run a tight loop: best Production Method available, ensure full staffing *before* adding more levels, watch the employment ratio when you swap PMs (a labour-hungry PM tanks staffed-levels immediately). The big trap is "I need more Prosperity → I will build more". The math punishes that: unstaffed levels add nothing, drag your productivity average toward the host state's averages, and if you are below the global productivity line you are losing 1 Prosperity per week regardless. Fix productivity first, then scale.
 
+Slot scarcity and per-Company maximization are two different decisions. The slot decision is conservative — only commit a slot to a building family you'll genuinely build out (above). But *once* a Company is committed, give it as much of that economy as it will take: every building level under the Company carries the +15% Throughput bonus, so more Company-owned levels means more total Throughput across your economy. The mechanism is to **privatise** (and where appropriate monopolise) the relevant buildings so the Company auto-acquires them — you don't hand-pick each one. The Belgium run does exactly this, handing John Cockerill the iron mines and privatising them so the company buys them up ([../case-studies/belgium-conquer-colonize-react.md](../case-studies/belgium-conquer-colonize-react.md)) (2025 comprehensive tutorial, [1:36:01]).
+
 Charters are where the strategic flavour lives. Trade Rights is the export Company's tool — give it to whichever Company makes a good you want to be the world supplier of. Industry Rights is for vertical integration: a fish Company that also runs Food Industries captures the margin twice. Monopoly Rights is double-edged — yes, the Company builds those buildings fast and well, but private builders are locked out, so if you cannot keep building you create a goods shortage. Reserve it for things you genuinely intend to push.
+
+New-player charter priority (when you don't yet know what you want): take **monopoly** and **industry** charters first — monopolies keep your prices and profits high, and industry charters give the Company a downstream building family to integrate. Trade-rights charters matter once you have a Company whose good you want to dominate world markets in (they let it own Trade Centers); investment charters only pay off once you actually hold foreign-investment rights; and colonization charters are essentially roleplay-only — skip them unless you're playing for the flavour (2025 comprehensive tutorial, [16:30]).
 
 Investment Rights is the most underrated tool: planted in a wealthy neighbour, a Regional HQ uses *their* Investment Pool to build there, and the returns reinvest into *your* pool. This is a one-way capital pipe. The catch is that foreign buildings run the host's PMs — so avoid Investment Rights into countries with bad input prices for that building, because the inefficient foreign branch will drag your whole Company's productivity average and Prosperity with it. Colonization Rights is the colonial complement: pair a resource-specialist Company with a state rich in that resource and you get a chartered Company Subject inheriting the construction bonus.
 
@@ -65,3 +74,4 @@ Once a Company hits Prosperous, the Prestige Good Journal Entry is the prize: st
 
 ## Sources
 - `notes/tutorials/14-companies-and-prosperity.md`
+- `../../notes/comprehensive-tutorial-2025/01-economics.md`
